@@ -3,11 +3,11 @@
   <title>Forward</title>
   
   
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://chenquan9807.github.io/"/>
   <updated>2020-08-15T11:43:05.314Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://chenquan9807.github.io/</id>
   
   <author>
     <name>Forward</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/08/15/hello-world/"/>
-    <id>http://yoursite.com/2020/08/15/hello-world/</id>
+    <link href="https://chenquan9807.github.io/2020/08/15/hello-world/"/>
+    <id>https://chenquan9807.github.io/2020/08/15/hello-world/</id>
     <published>2020-08-15T11:43:05.314Z</published>
     <updated>2020-08-15T11:43:05.314Z</updated>
     
