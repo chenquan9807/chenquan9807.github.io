@@ -92,11 +92,9 @@
 <li><em>f</em>(<strong>A</strong>)<sub>i,j</sub>表示汉书<em>f</em>的作用下在<strong>A</strong>上输出的矩阵的第i行第j列元素。</li>
 </ul>
 </li>
-<li>张量：一般的，一个数组中的元素分布在若干维坐标的规则网络，我们称之为张量。记作A<sub>i,j,k</sub>。</li>
+<li>张量：一般的，一个数组中的元素分布在若干维坐标的规则网络，我们称之为张量。记作A<sub>i,j,k</sub><br>深度学习中会使用一些简化的式子，如：C=A+b。其中C<sub>i,j</sub>=A<sub>i,j</sub>+b<sub>j</sub>。这种隐式地复制向量b到很多位置的方式，称为<strong>广播</strong>。<h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><code>C = AB</code><br>其中要求A为mxn,B为nxp，则C为mxp。  </li>
 </ol>
-<hr>
-<p>深度学习中会使用一些简化的式子，如：C=A+b。其中C<sub>i,j</sub>=A<sub>i,j</sub>+b<sub>j</sub>。这种隐式地复制向量b到很多位置的方式，称为<strong>广播</strong>。</p>
-<h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><p><code>C = AB</code><br>其中要求A为mxn,B为nxp，则C为mxp。<br>**元素对应乘积(Hadamard乘积)**：两个矩阵对应元素乘积。</p>
+<p>**元素对应乘积(Hadamard乘积)**：两个矩阵对应元素乘积。</p>
 <h2 id="单位矩阵和逆矩阵"><a href="#单位矩阵和逆矩阵" class="headerlink" title="单位矩阵和逆矩阵"></a>单位矩阵和逆矩阵</h2><p>A<sup>-1</sup>A=I<sub>n</sub></p>
 <ul>
 <li>行列式为0的矩阵一定不可逆.</li>
