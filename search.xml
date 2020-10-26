@@ -81,7 +81,14 @@
   <entry>
     <title>testPdf</title>
     <url>/2020/10/26/testPdf/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./testPdf.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
   </entry>
   <entry>
     <title>DeepLearning</title>
