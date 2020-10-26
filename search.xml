@@ -108,12 +108,24 @@
       </tags>
   </entry>
   <entry>
-    <title>多智能体一致性算法</title>
-    <url>/2020/10/26/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E7%AE%97%E6%B3%95/</url>
+    <title>multiAgent</title>
+    <url>/2020/10/26/multiAgent/</url>
     <content><![CDATA[
 
 	<div class="row">
-    <embed src="./testPdf.pdf" width="100%" height="550" type="application/pdf">
+    <embed src="./multiAgent.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>multiAgent2</title>
+    <url>/2020/10/26/multiAgent2/</url>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./multiAgent2.pdf" width="100%" height="550" type="application/pdf">
 	</div>
 
 
