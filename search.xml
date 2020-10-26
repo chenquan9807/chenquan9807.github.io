@@ -79,18 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title>多智能体一致性算法</title>
-    <url>/2020/10/26/testPdf/</url>
-    <content><![CDATA[
-
-	<div class="row">
-    <embed src="./testPdf.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-]]></content>
-  </entry>
-  <entry>
     <title>DeepLearning</title>
     <url>/2020/09/06/DeepLearning-img/</url>
     <content><![CDATA[<h1 id="深度学习"><a href="#深度学习" class="headerlink" title="深度学习"></a>深度学习</h1><p>&emsp;&emsp; 深度学习逐渐成为人工智能领域的研究热点和主流发展方向。它蕴含了什么样的魅力可以让国家出台政策支持并且持续吸引社会关注？下文将从深度学习的历史变迁、特点、网络结构、技术类别、应用领域和面临的问题等几个角度去了解。  </p>
@@ -118,5 +106,17 @@
       <tags>
         <tag>DeepLearning</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>多智能体一致性算法</title>
+    <url>/2020/10/26/%E5%A4%9A%E6%99%BA%E8%83%BD%E4%BD%93%E4%B8%80%E8%87%B4%E6%80%A7%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./testPdf.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
   </entry>
 </search>
