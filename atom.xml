@@ -6,7 +6,7 @@
   <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenquan9807.github.io/"/>
-  <updated>2020-10-26T04:10:16.150Z</updated>
+  <updated>2020-10-26T04:20:06.901Z</updated>
   <id>https://chenquan9807.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>testPdf</title>
+    <title>多智能体一致性算法</title>
     <link href="https://chenquan9807.github.io/2020/10/26/testPdf/"/>
     <id>https://chenquan9807.github.io/2020/10/26/testPdf/</id>
     <published>2020-10-26T03:00:34.000Z</published>
-    <updated>2020-10-26T04:10:16.150Z</updated>
+    <updated>2020-10-26T04:20:06.901Z</updated>
     
     <content type="html"><![CDATA[<div class="row">    <embed src="./testPdf.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
