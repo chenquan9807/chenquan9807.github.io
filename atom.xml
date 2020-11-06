@@ -6,7 +6,7 @@
   <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenquan9807.github.io/"/>
-  <updated>2020-11-06T08:09:57.808Z</updated>
+  <updated>2020-11-06T08:12:39.267Z</updated>
   <id>https://chenquan9807.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>tree</title>
+    <title>决策树 笔记</title>
     <link href="https://chenquan9807.github.io/2020/11/06/tree/"/>
     <id>https://chenquan9807.github.io/2020/11/06/tree/</id>
     <published>2020-11-06T07:02:11.000Z</published>
-    <updated>2020-11-06T08:09:57.808Z</updated>
+    <updated>2020-11-06T08:12:39.267Z</updated>
     
     <content type="html"><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><strong>决策树自上而下，树形分类的算法；有监督的算法</strong><br><strong>学习过程</strong>　</p><ul><li>特征选择　　</li><li>决策树生成　　</li><li>决策树剪枝　　</li></ul><p><strong>熵</strong></p><ul><li>随机变量的不确定程度</li><li>$ H(x) = －\sum_{i=0}^n pi * log(pi) $</li><li>熵越大不确定性就越大</li></ul><h2 id="ID3-算法"><a href="#ID3-算法" class="headerlink" title="ID3 算法"></a>ID3 算法</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol><li>计算数据集D的熵</li><li>计算某个特征A对于数据集D的条件熵H(D|A)</li><li>计算信息增益g(D,A) = H(D) - H(D|A)<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3></li></ol><ul><li>只能处理离散型变量，无法处理连续性变量</li><li>对样本缺失值比较敏感</li><li>每次分裂亲相遇取值多的特征，发哦之泛化性能较差</li></ul><h2 id="决策树的剪枝"><a href="#决策树的剪枝" class="headerlink" title="决策树的剪枝　"></a>决策树的剪枝　</h2><ul><li>提高决策树的泛化能生长力<h3 id="剪枝方法"><a href="#剪枝方法" class="headerlink" title="剪枝方法"></a>剪枝方法</h3><h4 id="预剪枝"><a href="#预剪枝" class="headerlink" title="预剪枝"></a>预剪枝</h4>树节点分裂之前，先计算划分是否可以提升模型的泛化能力</li><li>三种情况<ol><li>当树达到一定的深度时，停止树的生长</li><li>到达当前节点的样本数量小于某个阈值时，停止生长</li><li>计算每次分裂对测试集准确率的提升，小于某个阈值时不再生长<h4 id="后剪枝"><a href="#后剪枝" class="headerlink" title="后剪枝"></a>后剪枝</h4>完全生长成的决策树，然后自底向上进行减枝</li></ol></li><li>原则<ul><li>测试集上准确率的提升</li></ul></li></ul>]]></content>
     
