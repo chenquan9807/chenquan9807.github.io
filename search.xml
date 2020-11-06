@@ -136,7 +136,55 @@
     <url>/2020/11/05/logisticRegression/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from sklearn.model_selection import train_test_split</span><br><span class="line">import matplotlib.pyplot as plt</span><br><span class="line">import numpy as np</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line"># Data load</span><br><span class="line">iris &#x3D; pd.read_csv(&#39;.&#x2F;Iris&#x2F;iris.data&#39;)</span><br><span class="line"></span><br><span class="line"># Data process</span><br><span class="line">iris &#x3D; iris.values.reshape((-1, 5))</span><br><span class="line">xData &#x3D; iris[:, 0:4].reshape((-1, 4))</span><br><span class="line">yData &#x3D; pd.Categorical(iris[:, -1])</span><br><span class="line">yData &#x3D; yData.codes.reshape((-1, 1))</span><br><span class="line"></span><br><span class="line">x0 &#x3D; xData[0:100, :]</span><br><span class="line">x1 &#x3D; xData[50:150, :]</span><br><span class="line"># x2 &#x3D; xData[100:150, :]</span><br><span class="line"># x2 &#x3D; np.concatenate((xData[0:50, :], x2))</span><br><span class="line">y0 &#x3D; yData[:100, :]</span><br><span class="line">y1 &#x3D; yData[50:150, :] - 1</span><br><span class="line"># y2 &#x3D; yData[100:150, :] - 1</span><br><span class="line"># y2 &#x3D; np.concatenate((yData[0:50, :], y2))</span><br><span class="line"></span><br><span class="line"># 训练集，测试集的划分</span><br><span class="line">x0Train, x0Test, y0Train, y0Test &#x3D; train_test_split(x0, y0, random_state&#x3D;0)</span><br><span class="line">x1Train, x1Test, y1Train, y1Test &#x3D; train_test_split(x1, y1, random_state&#x3D;0)</span><br><span class="line"># x2Train, x2Test, y2Train, y2Test &#x3D; train_test_split(x2, y2, random_state&#x3D;0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Init</span><br><span class="line">def init(x):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    return x, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def sigmoid(z):</span><br><span class="line">    return 1 &#x2F; (1 + np.exp(-z.astype(float)))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def logisticRegression(x, y, learning_rate, epoch):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    cost &#x3D; np.zeros(shape&#x3D;(epoch, 1))</span><br><span class="line">    for i in range(epoch):</span><br><span class="line">        g &#x3D; sigmoid(np.dot(x, w.T))  # mx1</span><br><span class="line">        inner &#x3D; g - y</span><br><span class="line">        for j in range(w.size):</span><br><span class="line">            xj &#x3D; x[:, j].reshape(-1, 1)  # mx1</span><br><span class="line">            inner &#x3D; inner * xj</span><br><span class="line">            w[0, j] &#x3D; w[0, j] - (learning_rate &#x2F; m) * np.sum(inner)</span><br><span class="line">        cost[i] &#x3D; (- 1 &#x2F; m) * np.sum(y * np.log(g) + (1 - y) * (np.log(1 - g)))</span><br><span class="line">    return cost, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># predict</span><br><span class="line">def test(x, y, w):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y_predict &#x3D; sigmoid(np.dot(x, w.T))</span><br><span class="line">    y_predict &#x3D; np.where(y_predict &gt;&#x3D; 0.5, 1, y_predict)</span><br><span class="line">    y_predict &#x3D; (np.where(y_predict &lt; 0.5, 0, y_predict)).astype(np.int16)</span><br><span class="line">    print(list(y_predict.T-y.T)[0])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def predict(x, w0, w1):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y0_predict &#x3D; 0 if (sigmoid(np.dot(x, w0.T)) &lt; 0.5) else 1</span><br><span class="line">    y1_predict &#x3D; 0 if (sigmoid(np.dot(x, w1.T)) &lt; 0.5) else 1</span><br><span class="line">    # y2_predict &#x3D; 0 if (sigmoid(np.dot(x, w2.T)) &lt; 0.5) else 1</span><br><span class="line">    # y0_predict &#x3D; sigmoid(np.dot(x, w0.T))</span><br><span class="line">    # y1_predict &#x3D; sigmoid(np.dot(x, w1.T))</span><br><span class="line">    # y2_predict &#x3D; sigmoid(np.dot(x, w2.T))</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 0 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-setosa&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-versicolor&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 1:</span><br><span class="line">        print(&#39;The specie of X is Iris-virginica&#39;)</span><br><span class="line">    # print(y0_predict, y1_predict)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Cost0, W0 &#x3D; logisticRegression(x0Train, y0Train, 0.01, 500)</span><br><span class="line">test(x0Test, y0Test, W0)</span><br><span class="line">plt.plot(Cost0)</span><br><span class="line"></span><br><span class="line">Cost1, W1 &#x3D; logisticRegression(x1Train, y1Train, 0.01, 500)</span><br><span class="line">test(x1Test, y1Test, W1)</span><br><span class="line">plt.plot(Cost1)</span><br><span class="line"></span><br><span class="line"># Cost2, W2 &#x3D; logisticRegression(x2Train, y2Train, 0.01, 500)</span><br><span class="line"># test(x2Test, y2Test, W2)</span><br><span class="line"># plt.plot(Cost2)</span><br><span class="line"># plt.show()</span><br><span class="line">X0 &#x3D; np.array([5.1, 3.4, 1.5, 0.2]).reshape((1, -1))</span><br><span class="line">X1 &#x3D; np.array([4.9, 2.4, 3.3, 1.0]).reshape((1, -1))</span><br><span class="line"># X2 &#x3D; np.array([6.3, 2.5, 5.0, 1.9]).reshape((1, -1))</span><br><span class="line">print(&#39;y&#x3D;0&#39;)</span><br><span class="line">predict(X0, W0, W1)</span><br><span class="line">print(&#39;__________________\ny&#x3D;1&#39;)</span><br><span class="line">predict(X1, W0, W1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>DeepLearning, Iris,　鸢尾花, 梯度下降, 逻辑回归</tag>
+        <tag>DeepLearning</tag>
+        <tag>Iris</tag>
+        <tag>梯度下降</tag>
+        <tag>逻辑回归</tag>
+        <tag>鸢尾花</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>tree</title>
+    <url>/2020/11/06/tree/</url>
+    <content><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><strong>决策树自上而下，树形分类的算法；有监督的算法</strong><br><strong>学习过程</strong>　</p>
+<ul>
+<li>特征选择　　</li>
+<li>决策树生成　　</li>
+<li>决策树剪枝　　</li>
+</ul>
+<p><strong>熵</strong></p>
+<ul>
+<li>随机变量的不确定程度</li>
+<li>$ H(x) = －\sum_{i=0}^n pi * log(pi) $</li>
+<li>熵越大不确定性就越大</li>
+</ul>
+<h2 id="ID3-算法"><a href="#ID3-算法" class="headerlink" title="ID3 算法"></a>ID3 算法</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li>计算数据集D的熵</li>
+<li>计算某个特征A对于数据集D的条件熵H(D|A)</li>
+<li>计算信息增益g(D,A) = H(D) - H(D|A)<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3></li>
+</ol>
+<ul>
+<li>只能处理离散型变量，无法处理连续性变量</li>
+<li>对样本缺失值比较敏感</li>
+<li>每次分裂亲相遇取值多的特征，发哦之泛化性能较差</li>
+</ul>
+<h2 id="决策树的剪枝"><a href="#决策树的剪枝" class="headerlink" title="决策树的剪枝　"></a>决策树的剪枝　</h2><ul>
+<li>提高决策树的泛化能生长力<h3 id="剪枝方法"><a href="#剪枝方法" class="headerlink" title="剪枝方法"></a>剪枝方法</h3><h4 id="预剪枝"><a href="#预剪枝" class="headerlink" title="预剪枝"></a>预剪枝</h4>树节点分裂之前，先计算划分是否可以提升模型的泛化能力</li>
+<li>三种情况<ol>
+<li>当树达到一定的深度时，停止树的生长</li>
+<li>到达当前节点的样本数量小于某个阈值时，停止生长</li>
+<li>计算每次分裂对测试集准确率的提升，小于某个阈值时不再生长<h4 id="后剪枝"><a href="#后剪枝" class="headerlink" title="后剪枝"></a>后剪枝</h4>完全生长成的决策树，然后自底向上进行减枝</li>
+</ol>
+</li>
+<li>原则<ul>
+<li>测试集上准确率的提升</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>决策树</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
 </search>
