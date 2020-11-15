@@ -197,4 +197,56 @@
         <tag>第一周作业</tag>
       </tags>
   </entry>
+  <entry>
+    <title>k-means</title>
+    <url>/2020/11/15/k-means/</url>
+    <content><![CDATA[<h1 id="K-means-笔记"><a href="#K-means-笔记" class="headerlink" title="K-means 笔记"></a>K-means 笔记</h1><ul>
+<li>K-means 一种无监督的聚类算法<blockquote>
+<p>将相同类别的点聚集在一起，对于不同类别尽量的区分开</p>
+</blockquote>
+</li>
+<li><strong>核心目标：</strong> 将给定的数据划分为K个簇，并且给出每个簇的中心点，即质心<br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k1.png" alt="k-means实例"><h2 id="K-means-算法步骤"><a href="#K-means-算法步骤" class="headerlink" title="K-means 算法步骤"></a>K-means 算法步骤</h2></li>
+</ul>
+<ol>
+<li>数据预处理： 剔除离群点、数据归一化、数据标准化</li>
+<li>初始化： 随机选择K个中心点u<sup>(0)</sup><sub>1</sub>, u<sup>(0)</sup><sub>2</sub>, u<sup>(0)</sup><sub>3</sub>, …, u<sup>(0)</sup><sub>K</sub> </li>
+<li>定义损失函数：<br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k2.png" alt="损失函数J"></li>
+<li>交替迭代(t为步数，重复一下两个步骤直到J收敛)</li>
+</ol>
+<ul>
+<li><blockquote>
+<p>对于每个样本点，将其分配到距离最近的簇<br><br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k3.png" alt="点到质心距离"></p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>对于每个簇，重新计算聚类质心<br><br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k4.png" alt="更新聚类中心 "></p>
+</blockquote>
+</li>
+</ul>
+<h2 id="K-means算法缺点"><a href="#K-means算法缺点" class="headerlink" title="K-means算法缺点"></a>K-means算法缺点</h2><ol>
+<li>人工选取k值， 不一定符合数据分布</li>
+<li>收初始值和离群点的影响较为严重，稳定性差<br>##　K-means算法优点</li>
+<li>对于大数据集，算法时间读咋读为线性Ｏ(NKT)<blockquote>
+<p>Ｎ: 样本点个数<br>K: 聚类中心个个数<br>T: 迭代轮数</p>
+</blockquote>
+</li>
+<li>局部最优解通常已经可以满足问题需要</li>
+</ol>
+<h2 id="k-means算法调优"><a href="#k-means算法调优" class="headerlink" title="k-means算法调优"></a>k-means算法调优</h2><ol>
+<li>K值选择（手肘法）</li>
+</ol>
+<h2 id="k-means算法改进"><a href="#k-means算法改进" class="headerlink" title="k-means算法改进"></a>k-means算法改进</h2><ul>
+<li>改进点： 对初始值的选择进行优化</li>
+<li>k-means++算法<ul>
+<li>改进思想： 选取第n+1个聚类中心时：</li>
+<li>距离其他聚类中心越远，被选中的概率越大</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>鸢尾花</tag>
+        <tag>K-means</tag>
+      </tags>
+  </entry>
 </search>
