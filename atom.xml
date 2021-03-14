@@ -6,7 +6,7 @@
   <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenquan9807.github.io/"/>
-  <updated>2021-03-14T14:33:56.022Z</updated>
+  <updated>2021-03-14T14:36:52.889Z</updated>
   <id>https://chenquan9807.github.io/</id>
   
   <author>
@@ -21,14 +21,21 @@
     <link href="https://chenquan9807.github.io/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/"/>
     <id>https://chenquan9807.github.io/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/</id>
     <published>2021-03-14T14:32:36.000Z</published>
-    <updated>2021-03-14T14:33:56.022Z</updated>
+    <updated>2021-03-14T14:36:52.889Z</updated>
     
-    <content type="html"><![CDATA[<p>test</p>]]></content>
+    <content type="html"><![CDATA[<div class="row">    <embed src="./工程伦理.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;test&lt;/p&gt;
+    <summary type="html">
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;./工程伦理.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot; type=&quot;application/pdf&quot;&gt;
+	&lt;/div&gt;
+
+
+
 </summary>
       
     
