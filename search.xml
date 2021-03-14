@@ -261,8 +261,8 @@
 <p>​        强化学习系统学习的目标是动态地调整参数，以达到强化信号最大。若已知r/A梯度信息，则可直接可以使用监督学习算法。因为强化信号r与Agent产生的动作A没有明确的函数形式描述，所以梯度信息r/A无法得到。因此，在<a href="https://baike.baidu.com/item/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0">强化学习</a>系统中，需要某种随机单元，使用这种随机单元，Agent在可能动作空间中进行搜索并发现正确的动作。</p>
 <p><strong>目标：</strong></p>
 <p>​        学习从环境状态到行为的映射，使得智能体选择的行为能够获得环境最大的奖赏，使得外部环境对学习系统在某种意义下的评价(或整个系统的运行性能)为最佳。</p>
-<hr>
 <h3 id="多智能体一致性与强化学习"><a href="#多智能体一致性与强化学习" class="headerlink" title="多智能体一致性与强化学习"></a>多智能体一致性与强化学习</h3><p>传统的方法是基于对多智能体系统进行微分方程建立控制模型，进而针对模型进行控制；而强化学习则一般不需要对系统建立模型，是一种“试错”的控制方法。具体参见强化学习基本模型。</p>
+<hr>
 <h2 id="强化学习基础笔记"><a href="#强化学习基础笔记" class="headerlink" title="强化学习基础笔记"></a>强化学习基础笔记</h2><h3 id="强化学习分类"><a href="#强化学习分类" class="headerlink" title="强化学习分类"></a>强化学习分类</h3><h4 id="1、环境"><a href="#1、环境" class="headerlink" title="1、环境"></a>1、环境</h4><h5 id="不理解环境-Model-Free-RL"><a href="#不理解环境-Model-Free-RL" class="headerlink" title="不理解环境(Model-Free RL)"></a>不理解环境(Model-Free RL)</h5><blockquote>
 <ul>
 <li>Q Learning、Sarsa、Policy Gradients</li>
@@ -295,6 +295,15 @@
 <h4 id="4、在线-离线"><a href="#4、在线-离线" class="headerlink" title="4、在线/离线"></a>4、在线/离线</h4><h5 id="在线学习"><a href="#在线学习" class="headerlink" title="在线学习"></a>在线学习</h5><h5 id="离线学习"><a href="#离线学习" class="headerlink" title="离线学习"></a>离线学习</h5>]]></content>
       <tags>
         <tag>强化学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工程伦理</title>
+    <url>/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <tags>
+        <tag>工程伦理</tag>
       </tags>
   </entry>
 </search>
