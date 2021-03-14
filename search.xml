@@ -249,4 +249,52 @@
         <tag>K-means</tag>
       </tags>
   </entry>
+  <entry>
+    <title>强化学习</title>
+    <url>/2021/03/14/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="强化学习"><a href="#强化学习" class="headerlink" title="强化学习"></a>强化学习</h2><p><strong>定义:</strong> 强化学习是智能体（Agent）以“试错”的方式进行学习，通过与环境进行交互获得的奖赏指导行为，目标是使智能体获得最大的奖赏，强化学习不同于连接主义学习中的监督学习，主要表现在强化信号上，强化学习中由环境提供的强化信号是对产生动作的好坏作一种评价(通常为标量信号)，而不是告诉强化学习系统RLS(reinforcement learning system)如何去产生正确的动作。由于外部环境提供的信息很少，RLS必须靠自身的经历进行学习。通过这种方式，RLS在行动-评价的环境中获得知识，改进行动方案以适应环境。</p>
+<p>强化学习是从动物学习、参数扰动自适应控制等理论发展而来</p>
+<p><strong>原理：</strong></p>
+<p>​        如果Agent的某个行为策略导致环境正的奖赏(强化信号)，那么Agent以后产生这个行为策略的趋势便会加强。Agent的目标是在每个离散状态发现最优策略以使期望的折扣奖赏和最大。</p>
+<p>​        强化学习把学习看作试探评价过程，Agent选择一个动作用于环境，环境接受该动作后状态发生变化，同时产生一个强化信号(奖或惩)反馈给Agent，Agent根据强化信号和环境当前状态再选择下一个动作，选择的原则是使受到正强化(奖)的概率增大。选择的动作不仅影响立即强化值，而且影响环境下一时刻的状态及最终的强化值。</p>
+<p>​        强化学习不同于连接主义学习中的监督学习，主要表现在教师信号上，强化学习中由环境提供的强化信号是Agent对所产生动作的好坏作一种评价(通常为标量信号)，而不是告诉Agent如何去产生正确的动作。由于外部环境提供了很少的信息，Agent必须靠自身的经历进行学习。通过这种方式，Agent在行动一一评价的环境中获得知识，改进行动方案以适应环境。</p>
+<p>​        强化学习系统学习的目标是动态地调整参数，以达到强化信号最大。若已知r/A梯度信息，则可直接可以使用监督学习算法。因为强化信号r与Agent产生的动作A没有明确的函数形式描述，所以梯度信息r/A无法得到。因此，在<a href="https://baike.baidu.com/item/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0">强化学习</a>系统中，需要某种随机单元，使用这种随机单元，Agent在可能动作空间中进行搜索并发现正确的动作。</p>
+<p><strong>目标：</strong></p>
+<p>​        学习从环境状态到行为的映射，使得智能体选择的行为能够获得环境最大的奖赏，使得外部环境对学习系统在某种意义下的评价(或整个系统的运行性能)为最佳。</p>
+<hr>
+<h3 id="多智能体一致性与强化学习"><a href="#多智能体一致性与强化学习" class="headerlink" title="多智能体一致性与强化学习"></a>多智能体一致性与强化学习</h3><p>传统的方法是基于对多智能体系统进行微分方程建立控制模型，进而针对模型进行控制；而强化学习则一般不需要对系统建立模型，是一种“试错”的控制方法。具体参见强化学习基本模型。</p>
+<h2 id="强化学习基础笔记"><a href="#强化学习基础笔记" class="headerlink" title="强化学习基础笔记"></a>强化学习基础笔记</h2><h3 id="强化学习分类"><a href="#强化学习分类" class="headerlink" title="强化学习分类"></a>强化学习分类</h3><h4 id="1、环境"><a href="#1、环境" class="headerlink" title="1、环境"></a>1、环境</h4><h5 id="不理解环境-Model-Free-RL"><a href="#不理解环境-Model-Free-RL" class="headerlink" title="不理解环境(Model-Free RL)"></a>不理解环境(Model-Free RL)</h5><blockquote>
+<ul>
+<li>Q Learning、Sarsa、Policy Gradients</li>
+</ul>
+</blockquote>
+<h5 id="理解环境（Model-Based-RL）"><a href="#理解环境（Model-Based-RL）" class="headerlink" title="理解环境（Model-Based RL）"></a>理解环境（Model-Based RL）</h5><blockquote>
+<ul>
+<li>增加了虚拟环境</li>
+<li>Q Learning、Sarsa、Policy Gradients</li>
+<li>通过想象预判断来选择较好的情况</li>
+</ul>
+</blockquote>
+<h4 id="2、价值"><a href="#2、价值" class="headerlink" title="2、价值"></a>2、价值</h4><h5 id="基于概率-Policy-Based-RL"><a href="#基于概率-Policy-Based-RL" class="headerlink" title="基于概率(Policy-Based RL)"></a>基于概率(Policy-Based RL)</h5><blockquote>
+<p>通过感官输出概率，来选择动作（不一定选择概率最高，可以用于连续动作）</p>
+<p>Policy Gradients</p>
+</blockquote>
+<h5 id="基于价值（Value-Based-RL）"><a href="#基于价值（Value-Based-RL）" class="headerlink" title="基于价值（Value-Based RL）"></a>基于价值（Value-Based RL）</h5><blockquote>
+<p>输出动作价值，选择价值最高的价值（不可以用于连续动作）</p>
+<p>Q Learning、Sarsa</p>
+</blockquote>
+<p><strong><em>Actor-Critic：</em></strong>为两者结合</p>
+<h4 id="3、单步-回合"><a href="#3、单步-回合" class="headerlink" title="3、单步/回合"></a>3、单步/回合</h4><h5 id="回合更新"><a href="#回合更新" class="headerlink" title="回合更新"></a>回合更新</h5><blockquote>
+<p>一个循环结束后更新</p>
+<p>基础版Policy Gradients、Monte-Carlo Learning </p>
+</blockquote>
+<h5 id="单步更新"><a href="#单步更新" class="headerlink" title="单步更新"></a>单步更新</h5><blockquote>
+<p>每一个步骤都进行更新</p>
+<p>Q Learning、Sarsa、升级版Policy Gradients</p>
+</blockquote>
+<h4 id="4、在线-离线"><a href="#4、在线-离线" class="headerlink" title="4、在线/离线"></a>4、在线/离线</h4><h5 id="在线学习"><a href="#在线学习" class="headerlink" title="在线学习"></a>在线学习</h5><h5 id="离线学习"><a href="#离线学习" class="headerlink" title="离线学习"></a>离线学习</h5>]]></content>
+      <tags>
+        <tag>强化学习</tag>
+      </tags>
+  </entry>
 </search>
