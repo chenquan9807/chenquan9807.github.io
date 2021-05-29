@@ -392,7 +392,8 @@
   <entry>
     <title>test</title>
     <url>/2021/05/29/test/</url>
-    <content><![CDATA[<h1 id="强化学习"><a href="#强化学习" class="headerlink" title="强化学习"></a>强化学习</h1><h2 id="强化学习的分类"><a href="#强化学习的分类" class="headerlink" title="强化学习的分类"></a>强化学习的分类</h2><table>
+    <content><![CDATA[<h1 id="强化学习"><a href="#强化学习" class="headerlink" title="强化学习"></a>强化学习</h1><h2 id="强化学习的分类"><a href="#强化学习的分类" class="headerlink" title="强化学习的分类"></a>强化学习的分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/2020-11-26%2021-46-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png"></p>
+<table>
 <thead>
 <tr>
 <th>不理解环境(Model-Free RL)</th>
