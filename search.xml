@@ -396,4 +396,17 @@
 <p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210507154131990.png" alt="image-20210507154131990"></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>Meanshift</title>
+    <url>/2021/05/29/Meanshift/</url>
+    <content><![CDATA[<h2 id="Meanshift-实现聚类"><a href="#Meanshift-实现聚类" class="headerlink" title="Meanshift 实现聚类"></a>Meanshift 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317140908833.png" alt="image-20210317140908833"></p>
+<h2 id="KNN实现分类"><a href="#KNN实现分类" class="headerlink" title="KNN实现分类"></a>KNN实现分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141016638.png" alt="image-20210317141016638"></p>
+<h2 id="KMeans-实现聚类"><a href="#KMeans-实现聚类" class="headerlink" title="KMeans 实现聚类"></a>KMeans 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141056305.png" alt="image-20210317141056305"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141118718.png" alt="image-20210317141118718"></p>
+]]></content>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>MeanShift</tag>
+      </tags>
+  </entry>
 </search>

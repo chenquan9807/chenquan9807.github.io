@@ -6,7 +6,7 @@
   <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenquan9807.github.io/"/>
-  <updated>2021-05-29T12:54:25.083Z</updated>
+  <updated>2021-05-29T13:14:45.050Z</updated>
   <id>https://chenquan9807.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Meanshift</title>
+    <link href="https://chenquan9807.github.io/2021/05/29/Meanshift/"/>
+    <id>https://chenquan9807.github.io/2021/05/29/Meanshift/</id>
+    <published>2021-05-29T13:13:15.000Z</published>
+    <updated>2021-05-29T13:14:45.050Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Meanshift-实现聚类"><a href="#Meanshift-实现聚类" class="headerlink" title="Meanshift 实现聚类"></a>Meanshift 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317140908833.png" alt="image-20210317140908833"></p><h2 id="KNN实现分类"><a href="#KNN实现分类" class="headerlink" title="KNN实现分类"></a>KNN实现分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141016638.png" alt="image-20210317141016638"></p><h2 id="KMeans-实现聚类"><a href="#KMeans-实现聚类" class="headerlink" title="KMeans 实现聚类"></a>KMeans 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141056305.png" alt="image-20210317141056305"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141118718.png" alt="image-20210317141118718"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Meanshift-实现聚类&quot;&gt;&lt;a href=&quot;#Meanshift-实现聚类&quot; class=&quot;headerlink&quot; title=&quot;Meanshift 实现聚类&quot;&gt;&lt;/a&gt;Meanshift 实现聚类&lt;/h2&gt;&lt;p&gt;&lt;img src= &quot;/img/loadin</summary>
+      
+    
+    
+    
+    
+    <category term="机器学习" scheme="https://chenquan9807.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="MeanShift" scheme="https://chenquan9807.github.io/tags/MeanShift/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
