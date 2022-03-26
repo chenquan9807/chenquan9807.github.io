@@ -1,0 +1,177 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RedHat 网络配置 | Forward</title><meta name="description" content="RedHat 网络配置本方法为关闭图形界面采用配置文件配置 1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响1234# 关闭网络配置图形服务（本次生效）service NetworkManager  stop# 关闭开机启动网络配置图形界面chkconfig NetworkManager off  2、删除之前的网卡信息，避免之前信息的影响12cd &#x2F;etc&#x2F;u"><meta name="author" content="Forward"><meta name="copyright" content="Forward"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://chenquan9807.github.io/2022/03/26/RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="preconnect" href="//zz.bdstatic.com"/><meta name="baidu-site-verification" content="Z1XcX8V1nd"/><meta property="og:type" content="article"><meta property="og:title" content="RedHat 网络配置"><meta property="og:url" content="https://chenquan9807.github.io/2022/03/26/RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/"><meta property="og:site_name" content="Forward"><meta property="og:description" content="RedHat 网络配置本方法为关闭图形界面采用配置文件配置 1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响1234# 关闭网络配置图形服务（本次生效）service NetworkManager  stop# 关闭开机启动网络配置图形界面chkconfig NetworkManager off  2、删除之前的网卡信息，避免之前信息的影响12cd &#x2F;etc&#x2F;u"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2022-03-26T08:04:07.000Z"><meta property="article:modified_time" content="2022-03-26T08:04:53.079Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?Z1XcX8V1nd";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  hexoversion: '5.0.2',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: true,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2022-03-26 16:04:53'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 5.0.2"><link rel="alternate" href="/atom.xml" title="Forward" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/forward.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">20</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 类别</span></a></div></div></div></div><div id="body-wrap"><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE"><span class="toc-number">1.</span> <span class="toc-text">RedHat 网络配置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81-%E9%A6%96%E5%85%88%E5%85%B3%E9%97%AD%E7%BD%91%E7%BB%9C%E7%AE%A1%E7%90%86%E7%9A%84%E5%9B%BE%E5%BD%A2%E7%95%8C%E9%9D%A2%EF%BC%8C%E9%81%BF%E5%85%8D%E7%AA%97%E5%8F%A3%E6%93%8D%E4%BD%9C%E5%AF%B9%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE%E4%BA%A7%E7%94%9F%E5%BD%B1%E5%93%8D"><span class="toc-number">1.1.</span> <span class="toc-text">1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81%E5%88%A0%E9%99%A4%E4%B9%8B%E5%89%8D%E7%9A%84%E7%BD%91%E5%8D%A1%E4%BF%A1%E6%81%AF%EF%BC%8C%E9%81%BF%E5%85%8D%E4%B9%8B%E5%89%8D%E4%BF%A1%E6%81%AF%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">1.2.</span> <span class="toc-text">2、删除之前的网卡信息，避免之前信息的影响</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81%E6%B8%85%E9%99%A4%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E4%BF%A1%E6%81%AF%EF%BC%8C%E6%96%B9%E4%BE%BF%E9%87%8D%E6%96%B0%E9%85%8D%E7%BD%AE"><span class="toc-number">1.3.</span> <span class="toc-text">3、清除网络配置信息，方便重新配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E3%80%81%E4%B8%BA%E4%BD%BF%E4%B8%8A%E9%9D%A2%E6%93%8D%E4%BD%9C%E7%94%9F%E6%95%88%EF%BC%8C%E9%87%8D%E5%90%AF"><span class="toc-number">1.4.</span> <span class="toc-text">4、为使上面操作生效，重启</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E3%80%81%E7%A1%AE%E5%AE%9A%E7%BD%91%E5%8D%A1%E5%90%8D%E4%B8%8E%E7%AB%AF%E5%8F%A3%E7%9A%84%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB%EF%BC%8C%E6%96%B9%E9%9D%A2%E9%80%89%E6%8B%A9%E5%87%BA%E9%9C%80%E8%A6%81%E8%BF%9B%E8%A1%8C%E6%93%8D%E4%BD%9C%E7%9A%84%E7%BD%91%E5%8F%A3"><span class="toc-number">1.5.</span> <span class="toc-text">5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#5-1-ip-a"><span class="toc-number">1.5.1.</span> <span class="toc-text">5.1  ip a</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-2-%E7%A1%AE%E5%AE%9Aeth-%E4%B8%8E%E7%BD%91%E5%8F%A3%E5%AF%B9%E5%BA%94%E5%85%B3%E7%B3%BB"><span class="toc-number">1.5.2.</span> <span class="toc-text">5.2  确定eth* 与网口对应关系</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E3%80%81%E7%BD%91%E5%8D%A1%E9%85%8D%E7%BD%AE"><span class="toc-number">1.6.</span> <span class="toc-text">6、网卡配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E3%80%81%E5%85%B6%E4%BB%96%E9%9C%80%E8%A6%81%E9%85%8D%E7%BD%AE%E7%9A%84%E7%BD%91%E5%8D%A1%E9%87%8D%E5%A4%8D%E7%AC%AC%E5%85%AD%E6%AD%A5"><span class="toc-number">1.7.</span> <span class="toc-text">7、其他需要配置的网卡重复第六步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8%E3%80%81%E5%85%B6%E4%BB%96"><span class="toc-number">1.8.</span> <span class="toc-text">8、其他</span></a></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Forward</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 类别</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">RedHat 网络配置</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-03-26T08:04:07.000Z" title="发表于 2022-03-26 16:04:07">2022-03-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-03-26T08:04:53.079Z" title="更新于 2022-03-26 16:04:53">2022-03-26</time></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><h1 id="RedHat-网络配置"><a href="#RedHat-网络配置" class="headerlink" title="RedHat 网络配置"></a>RedHat 网络配置</h1><p><em>本方法为关闭图形界面采用配置文件配置</em></p>
+<h2 id="1、-首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响"><a href="#1、-首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响" class="headerlink" title="1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响"></a>1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 关闭网络配置图形服务（本次生效）</span><br><span class="line">service NetworkManager  stop</span><br><span class="line"># 关闭开机启动网络配置图形界面</span><br><span class="line">chkconfig NetworkManager off</span><br></pre></td></tr></table></figure>
+
+<h2 id="2、删除之前的网卡信息，避免之前信息的影响"><a href="#2、删除之前的网卡信息，避免之前信息的影响" class="headerlink" title="2、删除之前的网卡信息，避免之前信息的影响"></a>2、删除之前的网卡信息，避免之前信息的影响</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;udev&#x2F;rules.d</span><br><span class="line">rm 70-pre*.rules            &#x2F;&#x2F;删除前可备份此文件，如需恢复</span><br></pre></td></tr></table></figure>
+
+<h2 id="3、清除网络配置信息，方便重新配置"><a href="#3、清除网络配置信息，方便重新配置" class="headerlink" title="3、清除网络配置信息，方便重新配置"></a>3、清除网络配置信息，方便重新配置</h2><ul>
+<li><p>注释掉可能产生影响的信息，保留基本信息</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts        </span><br><span class="line">vim ifcfg-eth*    </span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><p>可以注释掉mac地址、UUID、IP地址、子网掩码、网关、NAME等</p>
+</li>
+<li><p>可以选择保留最基本的信息，比如:(或者比下面更少的信息，在你能确定不需要的前提下)</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">DEVICE&#x3D;&quot;eth5&quot;</span><br><span class="line">BOOTPROTO&#x3D;dhcp</span><br><span class="line">NM_CONTROLLED&#x3D;&quot;yes&quot;</span><br><span class="line">ONBOOT&#x3D;yes</span><br><span class="line">TYPE&#x3D;&quot;Ethernet&quot;</span><br><span class="line">DEFROUTE&#x3D;yes</span><br><span class="line">IPV4_FAILURE_FATAL&#x3D;yes</span><br><span class="line">IPV6INIT&#x3D;no</span><br><span class="line">PEERDNS&#x3D;yes</span><br><span class="line">PEERROUTES&#x3D;yes</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<ul>
+<li>在不清楚网卡名和端口的对应关系的情况下，建议ONBOOT都设置为YES（操做结束后，不需要的改为no）</li>
+</ul>
+<h2 id="4、为使上面操作生效，重启"><a href="#4、为使上面操作生效，重启" class="headerlink" title="4、为使上面操作生效，重启"></a>4、为使上面操作生效，重启</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<h2 id="5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口"><a href="#5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口" class="headerlink" title="5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口"></a>5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口</h2><h3 id="5-1-ip-a"><a href="#5-1-ip-a" class="headerlink" title="5.1  ip a"></a>5.1  ip a</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ip a            &#x2F;&#x2F;会列出所有网口的基本信息</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/5a435b28e571ae1be61fb4ac04080922.png" alt="8"></p>
+<ul>
+<li>state up为启动状态（我的理解是这些网卡已连接网线并且ONBOOT=yes）</li>
+<li>state down 那就是未启动</li>
+</ul>
+<h3 id="5-2-确定eth-与网口对应关系"><a href="#5-2-确定eth-与网口对应关系" class="headerlink" title="5.2  确定eth* 与网口对应关系"></a>5.2  确定eth* 与网口对应关系</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ethtool -p eth*</span><br></pre></td></tr></table></figure>
+
+<p>执行命令后对应网口的灯会闪烁（<strong>注意：对于光纤端口的话只有万兆才会起作用</strong>）</p>
+<p>通过这个命令就可以在找到想要配置的网卡名称了</p>
+<h2 id="6、网卡配置"><a href="#6、网卡配置" class="headerlink" title="6、网卡配置"></a>6、网卡配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts            </span><br></pre></td></tr></table></figure>
+
+<p><em>在此目录下可以找到不同eth\</em>的配置文件，如果没找到那就copy其他的eth文件然后改名字*</p>
+<ul>
+<li><p>打开网卡的配置文件进行如下操作</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ifcfg-eth5</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">BOOTPROTO&#x3D;static            &#x2F;&#x2F;设置网络配置方式，static：静态配置、dhcp：自动配置</span><br><span class="line">ONBOOT&#x3D;yes                    &#x2F;&#x2F;开机激活此网卡</span><br><span class="line">IPADDR&#x3D;192.168.137.9        &#x2F;&#x2F;设置IP地址</span><br><span class="line">PREFIX&#x3D;24                    &#x2F;&#x2F;子网掩码</span><br><span class="line">&#x2F;&#x2F;等其他需要配置的信息，，（按需配置）</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例</strong><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/ef77c8fcfdee41048d1867a152597bee.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQml0ZWVl,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p>
+</li>
+</ul>
+<ul>
+<li><p>使配置生效</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service network restart</span><br></pre></td></tr></table></figure>
+
+<h2 id="7、其他需要配置的网卡重复第六步"><a href="#7、其他需要配置的网卡重复第六步" class="headerlink" title="7、其他需要配置的网卡重复第六步"></a>7、其他需要配置的网卡重复第六步</h2><h2 id="8、其他"><a href="#8、其他" class="headerlink" title="8、其他"></a>8、其他</h2></li>
+<li><p>不需要网口的ONBOOT设为no</p>
+</li>
+<li><p>不同网口请设置在不同网段<br>vice network restart</p>
+<pre><code>
+## 7、其他需要配置的网卡重复第六步
+
+## 8、其他</code></pre>
+</li>
+<li><p>不需要网口的ONBOOT设为no</p>
+</li>
+<li><p>不同网口请设置在不同网段</p>
+</li>
+<li><p>ip route    //查看路由</p>
+</li>
+</ul>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Forward</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://chenquan9807.github.io/2022/03/26/RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/">https://chenquan9807.github.io/2022/03/26/RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://chenquan9807.github.io" target="_blank">Forward</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/03/26/%E5%86%8D%E7%94%9F%E9%BE%99%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"><img class="prev-cover" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">再生龙使用教程</div></div></a></div><div class="next-post pull-right"><a href="/2022/03/26/Gitee%E5%9B%BE%E5%BA%8A%E8%BD%AC%E7%A7%BB%E5%88%B0Github/"><img class="next-cover" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Gitee图床转移到Github</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By Forward</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>

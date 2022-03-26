@@ -419,4 +419,86 @@
         <tag>深度学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>RedHat 网络配置</title>
+    <url>/2022/03/26/RedHat-%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h1 id="RedHat-网络配置"><a href="#RedHat-网络配置" class="headerlink" title="RedHat 网络配置"></a>RedHat 网络配置</h1><p><em>本方法为关闭图形界面采用配置文件配置</em></p>
+<h2 id="1、-首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响"><a href="#1、-首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响" class="headerlink" title="1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响"></a>1、 首先关闭网络管理的图形界面，避免窗口操作对文件配置产生影响</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 关闭网络配置图形服务（本次生效）</span><br><span class="line">service NetworkManager  stop</span><br><span class="line"># 关闭开机启动网络配置图形界面</span><br><span class="line">chkconfig NetworkManager off</span><br></pre></td></tr></table></figure>
+
+<h2 id="2、删除之前的网卡信息，避免之前信息的影响"><a href="#2、删除之前的网卡信息，避免之前信息的影响" class="headerlink" title="2、删除之前的网卡信息，避免之前信息的影响"></a>2、删除之前的网卡信息，避免之前信息的影响</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;udev&#x2F;rules.d</span><br><span class="line">rm 70-pre*.rules            &#x2F;&#x2F;删除前可备份此文件，如需恢复</span><br></pre></td></tr></table></figure>
+
+<h2 id="3、清除网络配置信息，方便重新配置"><a href="#3、清除网络配置信息，方便重新配置" class="headerlink" title="3、清除网络配置信息，方便重新配置"></a>3、清除网络配置信息，方便重新配置</h2><ul>
+<li><p>注释掉可能产生影响的信息，保留基本信息</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts        </span><br><span class="line">vim ifcfg-eth*    </span><br></pre></td></tr></table></figure>
+
+<ol>
+<li><p>可以注释掉mac地址、UUID、IP地址、子网掩码、网关、NAME等</p>
+</li>
+<li><p>可以选择保留最基本的信息，比如:(或者比下面更少的信息，在你能确定不需要的前提下)</p>
+</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">DEVICE&#x3D;&quot;eth5&quot;</span><br><span class="line">BOOTPROTO&#x3D;dhcp</span><br><span class="line">NM_CONTROLLED&#x3D;&quot;yes&quot;</span><br><span class="line">ONBOOT&#x3D;yes</span><br><span class="line">TYPE&#x3D;&quot;Ethernet&quot;</span><br><span class="line">DEFROUTE&#x3D;yes</span><br><span class="line">IPV4_FAILURE_FATAL&#x3D;yes</span><br><span class="line">IPV6INIT&#x3D;no</span><br><span class="line">PEERDNS&#x3D;yes</span><br><span class="line">PEERROUTES&#x3D;yes</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<ul>
+<li>在不清楚网卡名和端口的对应关系的情况下，建议ONBOOT都设置为YES（操做结束后，不需要的改为no）</li>
+</ul>
+<h2 id="4、为使上面操作生效，重启"><a href="#4、为使上面操作生效，重启" class="headerlink" title="4、为使上面操作生效，重启"></a>4、为使上面操作生效，重启</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure>
+
+<h2 id="5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口"><a href="#5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口" class="headerlink" title="5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口"></a>5、确定网卡名与端口的对应关系，方面选择出需要进行操作的网口</h2><h3 id="5-1-ip-a"><a href="#5-1-ip-a" class="headerlink" title="5.1  ip a"></a>5.1  ip a</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ip a            &#x2F;&#x2F;会列出所有网口的基本信息</span><br></pre></td></tr></table></figure>
+
+<p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/img_convert/5a435b28e571ae1be61fb4ac04080922.png" alt="8"></p>
+<ul>
+<li>state up为启动状态（我的理解是这些网卡已连接网线并且ONBOOT=yes）</li>
+<li>state down 那就是未启动</li>
+</ul>
+<h3 id="5-2-确定eth-与网口对应关系"><a href="#5-2-确定eth-与网口对应关系" class="headerlink" title="5.2  确定eth* 与网口对应关系"></a>5.2  确定eth* 与网口对应关系</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ethtool -p eth*</span><br></pre></td></tr></table></figure>
+
+<p>执行命令后对应网口的灯会闪烁（<strong>注意：对于光纤端口的话只有万兆才会起作用</strong>）</p>
+<p>通过这个命令就可以在找到想要配置的网卡名称了</p>
+<h2 id="6、网卡配置"><a href="#6、网卡配置" class="headerlink" title="6、网卡配置"></a>6、网卡配置</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;sysconfig&#x2F;network-scripts            </span><br></pre></td></tr></table></figure>
+
+<p><em>在此目录下可以找到不同eth\</em>的配置文件，如果没找到那就copy其他的eth文件然后改名字*</p>
+<ul>
+<li><p>打开网卡的配置文件进行如下操作</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vim ifcfg-eth5</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">BOOTPROTO&#x3D;static            &#x2F;&#x2F;设置网络配置方式，static：静态配置、dhcp：自动配置</span><br><span class="line">ONBOOT&#x3D;yes                    &#x2F;&#x2F;开机激活此网卡</span><br><span class="line">IPADDR&#x3D;192.168.137.9        &#x2F;&#x2F;设置IP地址</span><br><span class="line">PREFIX&#x3D;24                    &#x2F;&#x2F;子网掩码</span><br><span class="line">&#x2F;&#x2F;等其他需要配置的信息，，（按需配置）</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例</strong><br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/ef77c8fcfdee41048d1867a152597bee.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAQml0ZWVl,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="在这里插入图片描述"></p>
+</li>
+</ul>
+<ul>
+<li><p>使配置生效</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">service network restart</span><br></pre></td></tr></table></figure>
+
+<h2 id="7、其他需要配置的网卡重复第六步"><a href="#7、其他需要配置的网卡重复第六步" class="headerlink" title="7、其他需要配置的网卡重复第六步"></a>7、其他需要配置的网卡重复第六步</h2><h2 id="8、其他"><a href="#8、其他" class="headerlink" title="8、其他"></a>8、其他</h2></li>
+<li><p>不需要网口的ONBOOT设为no</p>
+</li>
+<li><p>不同网口请设置在不同网段<br>vice network restart</p>
+<pre><code>
+## 7、其他需要配置的网卡重复第六步
+
+## 8、其他</code></pre>
+</li>
+<li><p>不需要网口的ONBOOT设为no</p>
+</li>
+<li><p>不同网口请设置在不同网段</p>
+</li>
+<li><p>ip route    //查看路由</p>
+</li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>再生龙使用教程</title>
+    <url>/2022/03/26/%E5%86%8D%E7%94%9F%E9%BE%99%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>联想电脑启用tpm2.0升级win11</title>
+    <url>/2022/03/26/%E8%81%94%E6%83%B3%E7%94%B5%E8%84%91%E5%90%AF%E7%94%A8tpm2-0%E5%8D%87%E7%BA%A7win11/</url>
+    <content><![CDATA[]]></content>
+  </entry>
 </search>
