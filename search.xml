@@ -1,84 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>butterfly主题地址记录</title>
-    <url>/2020/08/15/butterfly%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><p>Butterfly主题设置帮助网址</p>
-<h2 id="Butterfly-主题安装"><a href="#Butterfly-主题安装" class="headerlink" title="Butterfly 主题安装"></a>Butterfly 主题安装</h2><h3 id="Butterfly-安装文档主题页面"><a href="#Butterfly-安装文档主题页面" class="headerlink" title="Butterfly 安装文档主题页面"></a>Butterfly 安装文档主题页面</h3><blockquote>
-<p><a href="https://demo.jerryc.me/posts/dc584b87/#Front-matter">主题页面</a></p>
-</blockquote>
-<h3 id="Butterfly-安装文档主题配置-1"><a href="#Butterfly-安装文档主题配置-1" class="headerlink" title="Butterfly 安装文档主题配置-1"></a>Butterfly 安装文档主题配置-1</h3><blockquote>
-<p><a href="https://demo.jerryc.me/posts/4aa8abbe/">主题配置一</a></p>
-</blockquote>
-<h3 id="Butterfly-安装文档主题配置-2"><a href="#Butterfly-安装文档主题配置-2" class="headerlink" title="Butterfly 安装文档主题配置-2"></a>Butterfly 安装文档主题配置-2</h3><blockquote>
-<p><a href="https://demo.jerryc.me/posts/ceeb73f/">主题配置二</a></p>
-</blockquote>
-<h3 id="Butterfly-安装文档主题问答"><a href="#Butterfly-安装文档主题问答" class="headerlink" title="Butterfly 安装文档主题问答"></a>Butterfly 安装文档主题问答</h3><blockquote>
-<p><a href="https://demo.jerryc.me/posts/98d20436/">主题问答</a></p>
-</blockquote>
-<h3 id="Butterfly-安装文档进阶教程"><a href="#Butterfly-安装文档进阶教程" class="headerlink" title="Butterfly 安装文档进阶教程"></a>Butterfly 安装文档进阶教程</h3><blockquote>
-<p><a href="https://demo.jerryc.me/posts/4073eda/">进阶教程</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>主题</category>
-      </categories>
-      <tags>
-        <tag>Themes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/08/15/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>线性代数</title>
-    <url>/2020/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><h2 id="标量、向量、矩阵和张量"><a href="#标量、向量、矩阵和张量" class="headerlink" title="标量、向量、矩阵和张量"></a>标量、向量、矩阵和张量</h2><ol>
-<li>标量：一个标量一个单独的数。<ul>
-<li>斜体小写的变量名称表示；</li>
-</ul>
-</li>
-<li>向量：一个向量就是一列数。<ul>
-<li>粗体小写的变量名称表示；</li>
-</ul>
-</li>
-<li>矩阵：矩阵是一个二维数组。<ul>
-<li>粗体的大写变量名称表示；</li>
-<li>“:”表示水平坐标。<strong>A</strong><sub>i,:</sub>表示<strong>A</strong>中i行上的一排元素。</li>
-<li><em>f</em>(<strong>A</strong>)<sub>i,j</sub>表示汉书<em>f</em>的作用下在<strong>A</strong>上输出的矩阵的第i行第j列元素。</li>
-</ul>
-</li>
-<li>张量：一般的，一个数组中的元素分布在若干维坐标的规则网络，我们称之为张量。记作A<sub>i,j,k</sub>  </li>
-</ol>
-<p>深度学习中会使用一些简化的式子，如：C=A+b。其中C<sub>i,j</sub>=A<sub>i,j</sub>+b<sub>j</sub>。这种隐式地复制向量b到很多位置的方式，称为<strong>广播</strong>。</p>
-<h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><p><code>C = AB</code><br>其中要求A为mxn,B为nxp，则C为mxp。<br>**元素对应乘积(Hadamard乘积)**：两个矩阵对应元素乘积。</p>
-<h2 id="单位矩阵和逆矩阵"><a href="#单位矩阵和逆矩阵" class="headerlink" title="单位矩阵和逆矩阵"></a>单位矩阵和逆矩阵</h2><p>A<sup>-1</sup>A=I<sub>n</sub></p>
-<ul>
-<li>行列式为0的矩阵一定不可逆.</li>
-<li>若矩阵可逆则他的逆一定唯一.</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>线性代数</tag>
-        <tag>深度学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>DeepLearning</title>
     <url>/2020/09/06/DeepLearning-img/</url>
     <content><![CDATA[<h1 id="深度学习"><a href="#深度学习" class="headerlink" title="深度学习"></a>深度学习</h1><p>&emsp;&emsp; 深度学习逐渐成为人工智能领域的研究热点和主流发展方向。它蕴含了什么样的魅力可以让国家出台政策支持并且持续吸引社会关注？下文将从深度学习的历史变迁、特点、网络结构、技术类别、应用领域和面临的问题等几个角度去了解。  </p>
@@ -108,83 +30,60 @@
       </tags>
   </entry>
   <entry>
-    <title>multiAgent</title>
-    <url>/2020/10/26/multiAgent/</url>
-    <content><![CDATA[
-
-	<div class="row">
-    <embed src="./multiAgent.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
+    <title>Gitee图床转移到Github</title>
+    <url>/2022/03/26/Gitee%E5%9B%BE%E5%BA%8A%E8%BD%AC%E7%A7%BB%E5%88%B0Github/</url>
+    <content><![CDATA[<h1 id="Gitee图床里的图片全都变成图标"><a href="#Gitee图床里的图片全都变成图标" class="headerlink" title="Gitee图床里的图片全都变成图标"></a>Gitee图床里的图片全都变成图标</h1><ul>
+<li><p>为了解决这个问题，我把它转移到了Github中，下面是我的方法</p>
+<h2 id="1、Gitee图床中的图片打包下载下来"><a href="#1、Gitee图床中的图片打包下载下来" class="headerlink" title="1、Gitee图床中的图片打包下载下来"></a>1、Gitee图床中的图片打包下载下来</h2><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/f81c8b9c3fc643008dcd4e7ba8230b93.png" alt="在这里插入图片描述"></p>
+<h2 id="2、GitHub新建一个图床"><a href="#2、GitHub新建一个图床" class="headerlink" title="2、GitHub新建一个图床"></a>2、GitHub新建一个图床</h2><p>下面是一个相关教程：<a href="https://www.jianshu.com/p/69c122f16467">https://www.jianshu.com/p/69c122f16467</a></p>
+</li>
+<li><p>关于Github访问的问题，这个链接里的作者提供了一个加速方式，我用着还行</p>
+<h2 id="3、直接替换链接"><a href="#3、直接替换链接" class="headerlink" title="3、直接替换链接"></a>3、直接替换链接</h2></li>
+<li><p>因为图片名没换，所以只要把图片名之前的链接地址给换了就行了。<br>比如：<br><a href="https://gitee.com/******/images/blob/master/test.png">https://gitee.com/******/images/blob/master/test.png</a>  ===&gt;&gt;&gt;<a href="https://github.com/******/img/blob/main/test.jpg">https://github.com/******/img/blob/main/test.jpg</a></p>
+</li>
+<li><p>也就是上面test.png之前的内容，直接使用文本编辑器的替换功能就行了<br>ok</p>
+</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
-    <title>multiAgent2</title>
-    <url>/2020/10/26/multiAgent2/</url>
-    <content><![CDATA[
-
-	<div class="row">
-    <embed src="./multiAgent2.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
+    <title>Meanshift</title>
+    <url>/2021/05/29/Meanshift/</url>
+    <content><![CDATA[<h2 id="Meanshift-实现聚类"><a href="#Meanshift-实现聚类" class="headerlink" title="Meanshift 实现聚类"></a>Meanshift 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317140908833.png" alt="image-20210317140908833"></p>
+<h2 id="KNN实现分类"><a href="#KNN实现分类" class="headerlink" title="KNN实现分类"></a>KNN实现分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141016638.png" alt="image-20210317141016638"></p>
+<h2 id="KMeans-实现聚类"><a href="#KMeans-实现聚类" class="headerlink" title="KMeans 实现聚类"></a>KMeans 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141056305.png" alt="image-20210317141056305"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141118718.png" alt="image-20210317141118718"></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>logisticRegression</title>
-    <url>/2020/11/05/logisticRegression/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from sklearn.model_selection import train_test_split</span><br><span class="line">import matplotlib.pyplot as plt</span><br><span class="line">import numpy as np</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line"># Data load</span><br><span class="line">iris &#x3D; pd.read_csv(&#39;.&#x2F;Iris&#x2F;iris.data&#39;)</span><br><span class="line"></span><br><span class="line"># Data process</span><br><span class="line">iris &#x3D; iris.values.reshape((-1, 5))</span><br><span class="line">xData &#x3D; iris[:, 0:4].reshape((-1, 4))</span><br><span class="line">yData &#x3D; pd.Categorical(iris[:, -1])</span><br><span class="line">yData &#x3D; yData.codes.reshape((-1, 1))</span><br><span class="line"></span><br><span class="line">x0 &#x3D; xData[0:100, :]</span><br><span class="line">x1 &#x3D; xData[50:150, :]</span><br><span class="line"># x2 &#x3D; xData[100:150, :]</span><br><span class="line"># x2 &#x3D; np.concatenate((xData[0:50, :], x2))</span><br><span class="line">y0 &#x3D; yData[:100, :]</span><br><span class="line">y1 &#x3D; yData[50:150, :] - 1</span><br><span class="line"># y2 &#x3D; yData[100:150, :] - 1</span><br><span class="line"># y2 &#x3D; np.concatenate((yData[0:50, :], y2))</span><br><span class="line"></span><br><span class="line"># 训练集，测试集的划分</span><br><span class="line">x0Train, x0Test, y0Train, y0Test &#x3D; train_test_split(x0, y0, random_state&#x3D;0)</span><br><span class="line">x1Train, x1Test, y1Train, y1Test &#x3D; train_test_split(x1, y1, random_state&#x3D;0)</span><br><span class="line"># x2Train, x2Test, y2Train, y2Test &#x3D; train_test_split(x2, y2, random_state&#x3D;0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Init</span><br><span class="line">def init(x):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    return x, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def sigmoid(z):</span><br><span class="line">    return 1 &#x2F; (1 + np.exp(-z.astype(float)))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def logisticRegression(x, y, learning_rate, epoch):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    cost &#x3D; np.zeros(shape&#x3D;(epoch, 1))</span><br><span class="line">    for i in range(epoch):</span><br><span class="line">        g &#x3D; sigmoid(np.dot(x, w.T))  # mx1</span><br><span class="line">        inner &#x3D; g - y</span><br><span class="line">        for j in range(w.size):</span><br><span class="line">            xj &#x3D; x[:, j].reshape(-1, 1)  # mx1</span><br><span class="line">            inner &#x3D; inner * xj</span><br><span class="line">            w[0, j] &#x3D; w[0, j] - (learning_rate &#x2F; m) * np.sum(inner)</span><br><span class="line">        cost[i] &#x3D; (- 1 &#x2F; m) * np.sum(y * np.log(g) + (1 - y) * (np.log(1 - g)))</span><br><span class="line">    return cost, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># predict</span><br><span class="line">def test(x, y, w):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y_predict &#x3D; sigmoid(np.dot(x, w.T))</span><br><span class="line">    y_predict &#x3D; np.where(y_predict &gt;&#x3D; 0.5, 1, y_predict)</span><br><span class="line">    y_predict &#x3D; (np.where(y_predict &lt; 0.5, 0, y_predict)).astype(np.int16)</span><br><span class="line">    print(list(y_predict.T-y.T)[0])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def predict(x, w0, w1):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y0_predict &#x3D; 0 if (sigmoid(np.dot(x, w0.T)) &lt; 0.5) else 1</span><br><span class="line">    y1_predict &#x3D; 0 if (sigmoid(np.dot(x, w1.T)) &lt; 0.5) else 1</span><br><span class="line">    # y2_predict &#x3D; 0 if (sigmoid(np.dot(x, w2.T)) &lt; 0.5) else 1</span><br><span class="line">    # y0_predict &#x3D; sigmoid(np.dot(x, w0.T))</span><br><span class="line">    # y1_predict &#x3D; sigmoid(np.dot(x, w1.T))</span><br><span class="line">    # y2_predict &#x3D; sigmoid(np.dot(x, w2.T))</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 0 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-setosa&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-versicolor&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 1:</span><br><span class="line">        print(&#39;The specie of X is Iris-virginica&#39;)</span><br><span class="line">    # print(y0_predict, y1_predict)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Cost0, W0 &#x3D; logisticRegression(x0Train, y0Train, 0.01, 500)</span><br><span class="line">test(x0Test, y0Test, W0)</span><br><span class="line">plt.plot(Cost0)</span><br><span class="line"></span><br><span class="line">Cost1, W1 &#x3D; logisticRegression(x1Train, y1Train, 0.01, 500)</span><br><span class="line">test(x1Test, y1Test, W1)</span><br><span class="line">plt.plot(Cost1)</span><br><span class="line"></span><br><span class="line"># Cost2, W2 &#x3D; logisticRegression(x2Train, y2Train, 0.01, 500)</span><br><span class="line"># test(x2Test, y2Test, W2)</span><br><span class="line"># plt.plot(Cost2)</span><br><span class="line"># plt.show()</span><br><span class="line">X0 &#x3D; np.array([5.1, 3.4, 1.5, 0.2]).reshape((1, -1))</span><br><span class="line">X1 &#x3D; np.array([4.9, 2.4, 3.3, 1.0]).reshape((1, -1))</span><br><span class="line"># X2 &#x3D; np.array([6.3, 2.5, 5.0, 1.9]).reshape((1, -1))</span><br><span class="line">print(&#39;y&#x3D;0&#39;)</span><br><span class="line">predict(X0, W0, W1)</span><br><span class="line">print(&#39;__________________\ny&#x3D;1&#39;)</span><br><span class="line">predict(X1, W0, W1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>DeepLearning</tag>
-        <tag>Iris</tag>
-        <tag>梯度下降</tag>
-        <tag>逻辑回归</tag>
-        <tag>鸢尾花</tag>
+        <tag>机器学习</tag>
+        <tag>MeanShift</tag>
       </tags>
   </entry>
   <entry>
-    <title>决策树 笔记</title>
-    <url>/2020/11/06/tree/</url>
-    <content><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><strong>决策树自上而下，树形分类的算法；有监督的算法</strong><br><strong>学习过程</strong>　</p>
-<ul>
-<li>特征选择　　</li>
-<li>决策树生成　　</li>
-<li>决策树剪枝　　</li>
-</ul>
-<p><strong>熵</strong></p>
-<ul>
-<li>随机变量的不确定程度</li>
-<li>$ H(x) = －\sum_{i=0}^n pi * log(pi) $</li>
-<li>熵越大不确定性就越大</li>
-</ul>
-<h2 id="ID3-算法"><a href="#ID3-算法" class="headerlink" title="ID3 算法"></a>ID3 算法</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
-<li>计算数据集D的熵</li>
-<li>计算某个特征A对于数据集D的条件熵H(D|A)</li>
-<li>计算信息增益g(D,A) = H(D) - H(D|A)<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3></li>
-</ol>
-<ul>
-<li>只能处理离散型变量，无法处理连续性变量</li>
-<li>对样本缺失值比较敏感</li>
-<li>每次分裂亲相遇取值多的特征，发哦之泛化性能较差</li>
-</ul>
-<h2 id="决策树的剪枝"><a href="#决策树的剪枝" class="headerlink" title="决策树的剪枝　"></a>决策树的剪枝　</h2><ul>
-<li>提高决策树的泛化能生长力<h3 id="剪枝方法"><a href="#剪枝方法" class="headerlink" title="剪枝方法"></a>剪枝方法</h3><h4 id="预剪枝"><a href="#预剪枝" class="headerlink" title="预剪枝"></a>预剪枝</h4>树节点分裂之前，先计算划分是否可以提升模型的泛化能力</li>
-<li>三种情况<ol>
-<li>当树达到一定的深度时，停止树的生长</li>
-<li>到达当前节点的样本数量小于某个阈值时，停止生长</li>
-<li>计算每次分裂对测试集准确率的提升，小于某个阈值时不再生长<h4 id="后剪枝"><a href="#后剪枝" class="headerlink" title="后剪枝"></a>后剪枝</h4>完全生长成的决策树，然后自底向上进行减枝</li>
-</ol>
-</li>
-<li>原则<ul>
-<li>测试集上准确率的提升</li>
-</ul>
-</li>
-</ul>
+    <title>butterfly主题地址记录</title>
+    <url>/2020/08/15/butterfly%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><p>Butterfly主题设置帮助网址</p>
+<h2 id="Butterfly-主题安装"><a href="#Butterfly-主题安装" class="headerlink" title="Butterfly 主题安装"></a>Butterfly 主题安装</h2><h3 id="Butterfly-安装文档主题页面"><a href="#Butterfly-安装文档主题页面" class="headerlink" title="Butterfly 安装文档主题页面"></a>Butterfly 安装文档主题页面</h3><blockquote>
+<p><a href="https://demo.jerryc.me/posts/dc584b87/#Front-matter">主题页面</a></p>
+</blockquote>
+<h3 id="Butterfly-安装文档主题配置-1"><a href="#Butterfly-安装文档主题配置-1" class="headerlink" title="Butterfly 安装文档主题配置-1"></a>Butterfly 安装文档主题配置-1</h3><blockquote>
+<p><a href="https://demo.jerryc.me/posts/4aa8abbe/">主题配置一</a></p>
+</blockquote>
+<h3 id="Butterfly-安装文档主题配置-2"><a href="#Butterfly-安装文档主题配置-2" class="headerlink" title="Butterfly 安装文档主题配置-2"></a>Butterfly 安装文档主题配置-2</h3><blockquote>
+<p><a href="https://demo.jerryc.me/posts/ceeb73f/">主题配置二</a></p>
+</blockquote>
+<h3 id="Butterfly-安装文档主题问答"><a href="#Butterfly-安装文档主题问答" class="headerlink" title="Butterfly 安装文档主题问答"></a>Butterfly 安装文档主题问答</h3><blockquote>
+<p><a href="https://demo.jerryc.me/posts/98d20436/">主题问答</a></p>
+</blockquote>
+<h3 id="Butterfly-安装文档进阶教程"><a href="#Butterfly-安装文档进阶教程" class="headerlink" title="Butterfly 安装文档进阶教程"></a>Butterfly 安装文档进阶教程</h3><blockquote>
+<p><a href="https://demo.jerryc.me/posts/4073eda/">进阶教程</a></p>
+</blockquote>
 ]]></content>
+      <categories>
+        <category>主题</category>
+      </categories>
       <tags>
-        <tag>决策树</tag>
-        <tag>机器学习</tag>
+        <tag>Themes</tag>
       </tags>
   </entry>
   <entry>
@@ -196,6 +95,24 @@
         <tag>吴恩达</tag>
         <tag>第一周作业</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>k-means</title>
@@ -245,8 +162,180 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>鸢尾花</tag>
         <tag>K-means</tag>
+        <tag>鸢尾花</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>logisticRegression</title>
+    <url>/2020/11/05/logisticRegression/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">from sklearn.model_selection import train_test_split</span><br><span class="line">import matplotlib.pyplot as plt</span><br><span class="line">import numpy as np</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line"># Data load</span><br><span class="line">iris &#x3D; pd.read_csv(&#39;.&#x2F;Iris&#x2F;iris.data&#39;)</span><br><span class="line"></span><br><span class="line"># Data process</span><br><span class="line">iris &#x3D; iris.values.reshape((-1, 5))</span><br><span class="line">xData &#x3D; iris[:, 0:4].reshape((-1, 4))</span><br><span class="line">yData &#x3D; pd.Categorical(iris[:, -1])</span><br><span class="line">yData &#x3D; yData.codes.reshape((-1, 1))</span><br><span class="line"></span><br><span class="line">x0 &#x3D; xData[0:100, :]</span><br><span class="line">x1 &#x3D; xData[50:150, :]</span><br><span class="line"># x2 &#x3D; xData[100:150, :]</span><br><span class="line"># x2 &#x3D; np.concatenate((xData[0:50, :], x2))</span><br><span class="line">y0 &#x3D; yData[:100, :]</span><br><span class="line">y1 &#x3D; yData[50:150, :] - 1</span><br><span class="line"># y2 &#x3D; yData[100:150, :] - 1</span><br><span class="line"># y2 &#x3D; np.concatenate((yData[0:50, :], y2))</span><br><span class="line"></span><br><span class="line"># 训练集，测试集的划分</span><br><span class="line">x0Train, x0Test, y0Train, y0Test &#x3D; train_test_split(x0, y0, random_state&#x3D;0)</span><br><span class="line">x1Train, x1Test, y1Train, y1Test &#x3D; train_test_split(x1, y1, random_state&#x3D;0)</span><br><span class="line"># x2Train, x2Test, y2Train, y2Test &#x3D; train_test_split(x2, y2, random_state&#x3D;0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Init</span><br><span class="line">def init(x):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    return x, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def sigmoid(z):</span><br><span class="line">    return 1 &#x2F; (1 + np.exp(-z.astype(float)))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def logisticRegression(x, y, learning_rate, epoch):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    cost &#x3D; np.zeros(shape&#x3D;(epoch, 1))</span><br><span class="line">    for i in range(epoch):</span><br><span class="line">        g &#x3D; sigmoid(np.dot(x, w.T))  # mx1</span><br><span class="line">        inner &#x3D; g - y</span><br><span class="line">        for j in range(w.size):</span><br><span class="line">            xj &#x3D; x[:, j].reshape(-1, 1)  # mx1</span><br><span class="line">            inner &#x3D; inner * xj</span><br><span class="line">            w[0, j] &#x3D; w[0, j] - (learning_rate &#x2F; m) * np.sum(inner)</span><br><span class="line">        cost[i] &#x3D; (- 1 &#x2F; m) * np.sum(y * np.log(g) + (1 - y) * (np.log(1 - g)))</span><br><span class="line">    return cost, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># predict</span><br><span class="line">def test(x, y, w):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y_predict &#x3D; sigmoid(np.dot(x, w.T))</span><br><span class="line">    y_predict &#x3D; np.where(y_predict &gt;&#x3D; 0.5, 1, y_predict)</span><br><span class="line">    y_predict &#x3D; (np.where(y_predict &lt; 0.5, 0, y_predict)).astype(np.int16)</span><br><span class="line">    print(list(y_predict.T-y.T)[0])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def predict(x, w0, w1):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y0_predict &#x3D; 0 if (sigmoid(np.dot(x, w0.T)) &lt; 0.5) else 1</span><br><span class="line">    y1_predict &#x3D; 0 if (sigmoid(np.dot(x, w1.T)) &lt; 0.5) else 1</span><br><span class="line">    # y2_predict &#x3D; 0 if (sigmoid(np.dot(x, w2.T)) &lt; 0.5) else 1</span><br><span class="line">    # y0_predict &#x3D; sigmoid(np.dot(x, w0.T))</span><br><span class="line">    # y1_predict &#x3D; sigmoid(np.dot(x, w1.T))</span><br><span class="line">    # y2_predict &#x3D; sigmoid(np.dot(x, w2.T))</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 0 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-setosa&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-versicolor&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 1:</span><br><span class="line">        print(&#39;The specie of X is Iris-virginica&#39;)</span><br><span class="line">    # print(y0_predict, y1_predict)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Cost0, W0 &#x3D; logisticRegression(x0Train, y0Train, 0.01, 500)</span><br><span class="line">test(x0Test, y0Test, W0)</span><br><span class="line">plt.plot(Cost0)</span><br><span class="line"></span><br><span class="line">Cost1, W1 &#x3D; logisticRegression(x1Train, y1Train, 0.01, 500)</span><br><span class="line">test(x1Test, y1Test, W1)</span><br><span class="line">plt.plot(Cost1)</span><br><span class="line"></span><br><span class="line"># Cost2, W2 &#x3D; logisticRegression(x2Train, y2Train, 0.01, 500)</span><br><span class="line"># test(x2Test, y2Test, W2)</span><br><span class="line"># plt.plot(Cost2)</span><br><span class="line"># plt.show()</span><br><span class="line">X0 &#x3D; np.array([5.1, 3.4, 1.5, 0.2]).reshape((1, -1))</span><br><span class="line">X1 &#x3D; np.array([4.9, 2.4, 3.3, 1.0]).reshape((1, -1))</span><br><span class="line"># X2 &#x3D; np.array([6.3, 2.5, 5.0, 1.9]).reshape((1, -1))</span><br><span class="line">print(&#39;y&#x3D;0&#39;)</span><br><span class="line">predict(X0, W0, W1)</span><br><span class="line">print(&#39;__________________\ny&#x3D;1&#39;)</span><br><span class="line">predict(X1, W0, W1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>DeepLearning</tag>
+        <tag>鸢尾花</tag>
+        <tag>Iris</tag>
+        <tag>梯度下降</tag>
+        <tag>逻辑回归</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>multiAgent</title>
+    <url>/2020/10/26/multiAgent/</url>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./multiAgent.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>multiAgent2</title>
+    <url>/2020/10/26/multiAgent2/</url>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./multiAgent2.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+]]></content>
+  </entry>
+  <entry>
+    <title>pca</title>
+    <url>/2021/03/19/pca/</url>
+    <content><![CDATA[<h1 id="主成分分析"><a href="#主成分分析" class="headerlink" title="主成分分析"></a>主成分分析</h1><h2 id="数据降维"><a href="#数据降维" class="headerlink" title="数据降维"></a>数据降维</h2><p>在某些限定条件下，降低随机变量个个数，得到一组“不相关”主变量的过程。</p>
+<p><strong>作用：</strong> </p>
+<ul>
+<li>减少模型分析数据量，提升处理效率，降低计算难度</li>
+<li>实现数据可视化</li>
+</ul>
+<h2 id="主成分分析（PCA）"><a href="#主成分分析（PCA）" class="headerlink" title="主成分分析（PCA）"></a>主成分分析（PCA）</h2><p><strong>目标：</strong> 寻找k(k&lt;n)维新数据，使他们反映事物的主要特征</p>
+<p><strong>核心：</strong> 在信息损失尽可能少的情况下，降低数据维度</p>
+<blockquote>
+<p> 投影后的不同数据特征尽可能分得开（即不相关）可以保留主要的信息；</p>
+<p>实现方式：使投影后数据的方差最大，因为方差越大数据也越分散</p>
+</blockquote>
+<p><strong>计算过程：</strong></p>
+<ol>
+<li>原始数据预处理（标准化：$\mu=0, \sigma=1$）</li>
+<li>计算协方差矩阵特征向量、及数据在各特征向量投影后的方差</li>
+<li>根据需求（任务指定或方差比例）确定降维维度k</li>
+<li>选取k维特征向量，计算数据在 其形成空间的投影</li>
+</ol>
+]]></content>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>PCA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策树 笔记</title>
+    <url>/2020/11/06/tree/</url>
+    <content><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><strong>决策树自上而下，树形分类的算法；有监督的算法</strong><br><strong>学习过程</strong>　</p>
+<ul>
+<li>特征选择　　</li>
+<li>决策树生成　　</li>
+<li>决策树剪枝　　</li>
+</ul>
+<p><strong>熵</strong></p>
+<ul>
+<li>随机变量的不确定程度</li>
+<li>$ H(x) = －\sum_{i=0}^n pi * log(pi) $</li>
+<li>熵越大不确定性就越大</li>
+</ul>
+<h2 id="ID3-算法"><a href="#ID3-算法" class="headerlink" title="ID3 算法"></a>ID3 算法</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
+<li>计算数据集D的熵</li>
+<li>计算某个特征A对于数据集D的条件熵H(D|A)</li>
+<li>计算信息增益g(D,A) = H(D) - H(D|A)<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3></li>
+</ol>
+<ul>
+<li>只能处理离散型变量，无法处理连续性变量</li>
+<li>对样本缺失值比较敏感</li>
+<li>每次分裂亲相遇取值多的特征，发哦之泛化性能较差</li>
+</ul>
+<h2 id="决策树的剪枝"><a href="#决策树的剪枝" class="headerlink" title="决策树的剪枝　"></a>决策树的剪枝　</h2><ul>
+<li>提高决策树的泛化能生长力<h3 id="剪枝方法"><a href="#剪枝方法" class="headerlink" title="剪枝方法"></a>剪枝方法</h3><h4 id="预剪枝"><a href="#预剪枝" class="headerlink" title="预剪枝"></a>预剪枝</h4>树节点分裂之前，先计算划分是否可以提升模型的泛化能力</li>
+<li>三种情况<ol>
+<li>当树达到一定的深度时，停止树的生长</li>
+<li>到达当前节点的样本数量小于某个阈值时，停止生长</li>
+<li>计算每次分裂对测试集准确率的提升，小于某个阈值时不再生长<h4 id="后剪枝"><a href="#后剪枝" class="headerlink" title="后剪枝"></a>后剪枝</h4>完全生长成的决策树，然后自底向上进行减枝</li>
+</ol>
+</li>
+<li>原则<ul>
+<li>测试集上准确率的提升</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>决策树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>决策树基本原理</title>
+    <url>/2021/03/19/%E5%86%B3%E7%AD%96%E6%A0%91%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="决策树-1"><a href="#决策树-1" class="headerlink" title="决策树"></a>决策树</h2><p> <strong>定义：</strong>对实例进行分类的树形结构，通过多层判断区别所属目标</p>
+<p><strong>本质：</strong>通过多层判断，从训练数据集中归纳出一组分类规则</p>
+<p><strong>优点</strong></p>
+<ul>
+<li>计算量小， 运算速度快</li>
+<li>易于理解，可清晰查看各个属性的重要性</li>
+</ul>
+<p><strong>缺点</strong></p>
+<ul>
+<li>忽略属性间的相关行</li>
+<li>样本类别分布不均匀时，容易影响模型表现</li>
+</ul>
+<p>**ID3:**利用信息熵原理选择信息增益最大的属性进行分类属性，递归的拓展决策树的分支，完成决策树的构造</p>
+<p>信息熵：度量随机变量不确定的指标，熵越大，变量的不确定性就越大。假定当前样本集合D中第k类样本所占的比例为: p_x,则D的信息熵为：<br>$$<br>Ent(D)= -\sum_{k=1}^{|y|}p_k\log_2p_k<br>$$<br>根据信息熵可以计算以属性a进行样本划分带来的信息增益：<br>$$<br>Gain(D,a)=Ent(D)-\sum_{v=1}^{V}\frac{D^v}{D}Ent(D^v)<br>$$<br>V为根据属性a划分出的类别数，D为当前样本总数，D^v为类别v样本数</p>
+<p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317205321739.png" alt="image-20210317205321739"></p>
+<p><strong>目标：</strong>划分后样本分布不确定性尽可能小，即划分后信息熵小，信息增益大</p>
+<p>例子：<img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210017020.png" alt="image-20210317210017020"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210143861.png" alt="image-20210317210143861"></p>
+]]></content>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>决策树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工程伦理</title>
+    <url>/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/</url>
+    <content><![CDATA[
+
+	<div class="row">
+    <embed src="./工程伦理.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+
+]]></content>
+      <tags>
+        <tag>工程伦理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>异常检测</title>
+    <url>/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</url>
+    <content><![CDATA[<h1 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h1><p>根据输入数据，对不符合与其模式的数据进行识别。</p>
+<h2 id="一维"><a href="#一维" class="headerlink" title="一维"></a>一维</h2><p><strong>概率密度：</strong> 概率密度函数是一个描述随机变量在某个确定取值点附近的可能性的函数。</p>
+<p><strong>高斯分布：</strong> </p>
+<ul>
+<li>高斯分布的概率密度函数:</li>
+</ul>
+<p>$$<br>p(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}<br>$$</p>
+<ul>
+<li>$\mu$为数据均值，$\sigma $为标准差</li>
+</ul>
+<p>$$<br>\mu=\frac{1}{m}\sum_{i-1}^{m}x^{(i)}<br>$$</p>
+<p>$$<br>\sigma^2=\frac{1}{m}\sum_{i-1}^{m}(x^{(i)}-\mu)^2<br>$$</p>
+<h2 id="二维以上"><a href="#二维以上" class="headerlink" title="二维以上"></a>二维以上</h2><p><img src= "/img/loading.gif" data-lazy-src="/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/image-20210319152559828.png" alt="image-20210319152559828"></p>
+]]></content>
+      <tags>
+        <tag>异常检测</tag>
       </tags>
   </entry>
   <entry>
@@ -298,108 +387,36 @@
       </tags>
   </entry>
   <entry>
-    <title>工程伦理</title>
-    <url>/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/</url>
-    <content><![CDATA[
-
-	<div class="row">
-    <embed src="./工程伦理.pdf" width="100%" height="550" type="application/pdf">
-	</div>
-
-
-
-]]></content>
-      <tags>
-        <tag>工程伦理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pca</title>
-    <url>/2021/03/19/pca/</url>
-    <content><![CDATA[<h1 id="主成分分析"><a href="#主成分分析" class="headerlink" title="主成分分析"></a>主成分分析</h1><h2 id="数据降维"><a href="#数据降维" class="headerlink" title="数据降维"></a>数据降维</h2><p>在某些限定条件下，降低随机变量个个数，得到一组“不相关”主变量的过程。</p>
-<p><strong>作用：</strong> </p>
-<ul>
-<li>减少模型分析数据量，提升处理效率，降低计算难度</li>
-<li>实现数据可视化</li>
+    <title>线性代数</title>
+    <url>/2020/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><h2 id="标量、向量、矩阵和张量"><a href="#标量、向量、矩阵和张量" class="headerlink" title="标量、向量、矩阵和张量"></a>标量、向量、矩阵和张量</h2><ol>
+<li>标量：一个标量一个单独的数。<ul>
+<li>斜体小写的变量名称表示；</li>
 </ul>
-<h2 id="主成分分析（PCA）"><a href="#主成分分析（PCA）" class="headerlink" title="主成分分析（PCA）"></a>主成分分析（PCA）</h2><p><strong>目标：</strong> 寻找k(k&lt;n)维新数据，使他们反映事物的主要特征</p>
-<p><strong>核心：</strong> 在信息损失尽可能少的情况下，降低数据维度</p>
-<blockquote>
-<p> 投影后的不同数据特征尽可能分得开（即不相关）可以保留主要的信息；</p>
-<p>实现方式：使投影后数据的方差最大，因为方差越大数据也越分散</p>
-</blockquote>
-<p><strong>计算过程：</strong></p>
-<ol>
-<li>原始数据预处理（标准化：$\mu=0, \sigma=1$）</li>
-<li>计算协方差矩阵特征向量、及数据在各特征向量投影后的方差</li>
-<li>根据需求（任务指定或方差比例）确定降维维度k</li>
-<li>选取k维特征向量，计算数据在 其形成空间的投影</li>
+</li>
+<li>向量：一个向量就是一列数。<ul>
+<li>粗体小写的变量名称表示；</li>
+</ul>
+</li>
+<li>矩阵：矩阵是一个二维数组。<ul>
+<li>粗体的大写变量名称表示；</li>
+<li>“:”表示水平坐标。<strong>A</strong><sub>i,:</sub>表示<strong>A</strong>中i行上的一排元素。</li>
+<li><em>f</em>(<strong>A</strong>)<sub>i,j</sub>表示汉书<em>f</em>的作用下在<strong>A</strong>上输出的矩阵的第i行第j列元素。</li>
+</ul>
+</li>
+<li>张量：一般的，一个数组中的元素分布在若干维坐标的规则网络，我们称之为张量。记作A<sub>i,j,k</sub>  </li>
 </ol>
+<p>深度学习中会使用一些简化的式子，如：C=A+b。其中C<sub>i,j</sub>=A<sub>i,j</sub>+b<sub>j</sub>。这种隐式地复制向量b到很多位置的方式，称为<strong>广播</strong>。</p>
+<h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><p><code>C = AB</code><br>其中要求A为mxn,B为nxp，则C为mxp。<br>**元素对应乘积(Hadamard乘积)**：两个矩阵对应元素乘积。</p>
+<h2 id="单位矩阵和逆矩阵"><a href="#单位矩阵和逆矩阵" class="headerlink" title="单位矩阵和逆矩阵"></a>单位矩阵和逆矩阵</h2><p>A<sup>-1</sup>A=I<sub>n</sub></p>
+<ul>
+<li>行列式为0的矩阵一定不可逆.</li>
+<li>若矩阵可逆则他的逆一定唯一.</li>
+</ul>
 ]]></content>
       <tags>
-        <tag>机器学习</tag>
-        <tag>PCA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>决策树基本原理</title>
-    <url>/2021/03/19/%E5%86%B3%E7%AD%96%E6%A0%91%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/</url>
-    <content><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="决策树-1"><a href="#决策树-1" class="headerlink" title="决策树"></a>决策树</h2><p> <strong>定义：</strong>对实例进行分类的树形结构，通过多层判断区别所属目标</p>
-<p><strong>本质：</strong>通过多层判断，从训练数据集中归纳出一组分类规则</p>
-<p><strong>优点</strong></p>
-<ul>
-<li>计算量小， 运算速度快</li>
-<li>易于理解，可清晰查看各个属性的重要性</li>
-</ul>
-<p><strong>缺点</strong></p>
-<ul>
-<li>忽略属性间的相关行</li>
-<li>样本类别分布不均匀时，容易影响模型表现</li>
-</ul>
-<p>**ID3:**利用信息熵原理选择信息增益最大的属性进行分类属性，递归的拓展决策树的分支，完成决策树的构造</p>
-<p>信息熵：度量随机变量不确定的指标，熵越大，变量的不确定性就越大。假定当前样本集合D中第k类样本所占的比例为: p_x,则D的信息熵为：<br>$$<br>Ent(D)= -\sum_{k=1}^{|y|}p_k\log_2p_k<br>$$<br>根据信息熵可以计算以属性a进行样本划分带来的信息增益：<br>$$<br>Gain(D,a)=Ent(D)-\sum_{v=1}^{V}\frac{D^v}{D}Ent(D^v)<br>$$<br>V为根据属性a划分出的类别数，D为当前样本总数，D^v为类别v样本数</p>
-<p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317205321739.png" alt="image-20210317205321739"></p>
-<p><strong>目标：</strong>划分后样本分布不确定性尽可能小，即划分后信息熵小，信息增益大</p>
-<p>例子：<img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210017020.png" alt="image-20210317210017020"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210143861.png" alt="image-20210317210143861"></p>
-]]></content>
-      <tags>
-        <tag>决策树</tag>
-        <tag>机器学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>异常检测</title>
-    <url>/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</url>
-    <content><![CDATA[<h1 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h1><p>根据输入数据，对不符合与其模式的数据进行识别。</p>
-<h2 id="一维"><a href="#一维" class="headerlink" title="一维"></a>一维</h2><p><strong>概率密度：</strong> 概率密度函数是一个描述随机变量在某个确定取值点附近的可能性的函数。</p>
-<p><strong>高斯分布：</strong> </p>
-<ul>
-<li>高斯分布的概率密度函数:</li>
-</ul>
-<p>$$<br>p(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}<br>$$</p>
-<ul>
-<li>$\mu$为数据均值，$\sigma $为标准差</li>
-</ul>
-<p>$$<br>\mu=\frac{1}{m}\sum_{i-1}^{m}x^{(i)}<br>$$</p>
-<p>$$<br>\sigma^2=\frac{1}{m}\sum_{i-1}^{m}(x^{(i)}-\mu)^2<br>$$</p>
-<h2 id="二维以上"><a href="#二维以上" class="headerlink" title="二维以上"></a>二维以上</h2><p><img src= "/img/loading.gif" data-lazy-src="/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/image-20210319152559828.png" alt="image-20210319152559828"></p>
-]]></content>
-      <tags>
-        <tag>异常检测</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Meanshift</title>
-    <url>/2021/05/29/Meanshift/</url>
-    <content><![CDATA[<h2 id="Meanshift-实现聚类"><a href="#Meanshift-实现聚类" class="headerlink" title="Meanshift 实现聚类"></a>Meanshift 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317140908833.png" alt="image-20210317140908833"></p>
-<h2 id="KNN实现分类"><a href="#KNN实现分类" class="headerlink" title="KNN实现分类"></a>KNN实现分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141016638.png" alt="image-20210317141016638"></p>
-<h2 id="KMeans-实现聚类"><a href="#KMeans-实现聚类" class="headerlink" title="KMeans 实现聚类"></a>KMeans 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141056305.png" alt="image-20210317141056305"></p>
-<p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141118718.png" alt="image-20210317141118718"></p>
-]]></content>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>MeanShift</tag>
+        <tag>线性代数</tag>
+        <tag>深度学习</tag>
       </tags>
   </entry>
 </search>

@@ -6,7 +6,7 @@
   <link href="https://chenquan9807.github.io/atom.xml" rel="self"/>
   
   <link href="https://chenquan9807.github.io/"/>
-  <updated>2021-05-29T13:14:45.050Z</updated>
+  <updated>2022-03-26T07:41:48.056Z</updated>
   <id>https://chenquan9807.github.io/</id>
   
   <author>
@@ -17,11 +17,52 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Gitee图床转移到Github</title>
+    <link href="https://chenquan9807.github.io/2022/03/26/Gitee%E5%9B%BE%E5%BA%8A%E8%BD%AC%E7%A7%BB%E5%88%B0Github/"/>
+    <id>https://chenquan9807.github.io/2022/03/26/Gitee%E5%9B%BE%E5%BA%8A%E8%BD%AC%E7%A7%BB%E5%88%B0Github/</id>
+    <published>2022-03-26T07:34:04.000Z</published>
+    <updated>2022-03-26T07:41:48.056Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Gitee图床里的图片全都变成图标"><a href="#Gitee图床里的图片全都变成图标" class="headerlink" title="Gitee图床里的图片全都变成图标"></a>Gitee图床里的图片全都变成图标</h1><ul><li><p>为了解决这个问题，我把它转移到了Github中，下面是我的方法</p><h2 id="1、Gitee图床中的图片打包下载下来"><a href="#1、Gitee图床中的图片打包下载下来" class="headerlink" title="1、Gitee图床中的图片打包下载下来"></a>1、Gitee图床中的图片打包下载下来</h2><p><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/f81c8b9c3fc643008dcd4e7ba8230b93.png" alt="在这里插入图片描述"></p><h2 id="2、GitHub新建一个图床"><a href="#2、GitHub新建一个图床" class="headerlink" title="2、GitHub新建一个图床"></a>2、GitHub新建一个图床</h2><p>下面是一个相关教程：<a href="https://www.jianshu.com/p/69c122f16467">https://www.jianshu.com/p/69c122f16467</a></p></li><li><p>关于Github访问的问题，这个链接里的作者提供了一个加速方式，我用着还行</p><h2 id="3、直接替换链接"><a href="#3、直接替换链接" class="headerlink" title="3、直接替换链接"></a>3、直接替换链接</h2></li><li><p>因为图片名没换，所以只要把图片名之前的链接地址给换了就行了。<br>比如：<br><a href="https://gitee.com/******/images/blob/master/test.png">https://gitee.com/******/images/blob/master/test.png</a>  ===&gt;&gt;&gt;<a href="https://github.com/******/img/blob/main/test.jpg">https://github.com/******/img/blob/main/test.jpg</a></p></li><li><p>也就是上面test.png之前的内容，直接使用文本编辑器的替换功能就行了<br>ok</p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Gitee图床里的图片全都变成图标&quot;&gt;&lt;a href=&quot;#Gitee图床里的图片全都变成图标&quot; class=&quot;headerlink&quot; title=&quot;Gitee图床里的图片全都变成图标&quot;&gt;&lt;/a&gt;Gitee图床里的图片全都变成图标&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;为</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://chenquan9807.github.io/2022/01/05/hello-world/"/>
+    <id>https://chenquan9807.github.io/2022/01/05/hello-world/</id>
+    <published>2022-01-05T11:36:40.024Z</published>
+    <updated>2020-08-15T19:43:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Meanshift</title>
     <link href="https://chenquan9807.github.io/2021/05/29/Meanshift/"/>
     <id>https://chenquan9807.github.io/2021/05/29/Meanshift/</id>
     <published>2021-05-29T13:13:15.000Z</published>
-    <updated>2021-05-29T13:14:45.050Z</updated>
+    <updated>2021-05-29T21:14:44.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Meanshift-实现聚类"><a href="#Meanshift-实现聚类" class="headerlink" title="Meanshift 实现聚类"></a>Meanshift 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317140908833.png" alt="image-20210317140908833"></p><h2 id="KNN实现分类"><a href="#KNN实现分类" class="headerlink" title="KNN实现分类"></a>KNN实现分类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141016638.png" alt="image-20210317141016638"></p><h2 id="KMeans-实现聚类"><a href="#KMeans-实现聚类" class="headerlink" title="KMeans 实现聚类"></a>KMeans 实现聚类</h2><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141056305.png" alt="image-20210317141056305"></p><p><img src= "/img/loading.gif" data-lazy-src="https://gitee.com/forward527/images/raw/master/img/image-20210317141118718.png" alt="image-20210317141118718"></p>]]></content>
     
@@ -45,7 +86,7 @@
     <link href="https://chenquan9807.github.io/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/"/>
     <id>https://chenquan9807.github.io/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/</id>
     <published>2021-03-19T08:22:35.000Z</published>
-    <updated>2021-03-19T08:25:10.135Z</updated>
+    <updated>2021-03-19T16:25:10.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="异常检测"><a href="#异常检测" class="headerlink" title="异常检测"></a>异常检测</h1><p>根据输入数据，对不符合与其模式的数据进行识别。</p><h2 id="一维"><a href="#一维" class="headerlink" title="一维"></a>一维</h2><p><strong>概率密度：</strong> 概率密度函数是一个描述随机变量在某个确定取值点附近的可能性的函数。</p><p><strong>高斯分布：</strong> </p><ul><li>高斯分布的概率密度函数:</li></ul><p>$$<br>p(x)=\frac{1}{\sigma \sqrt{2\pi}}e^{\frac{(x-\mu)^2}{2\sigma^2}}<br>$$</p><ul><li>$\mu$为数据均值，$\sigma $为标准差</li></ul><p>$$<br>\mu=\frac{1}{m}\sum_{i-1}^{m}x^{(i)}<br>$$</p><p>$$<br>\sigma^2=\frac{1}{m}\sum_{i-1}^{m}(x^{(i)}-\mu)^2<br>$$</p><h2 id="二维以上"><a href="#二维以上" class="headerlink" title="二维以上"></a>二维以上</h2><p><img src= "/img/loading.gif" data-lazy-src="/2021/03/19/%E5%BC%82%E5%B8%B8%E6%A3%80%E6%B5%8B/image-20210319152559828.png" alt="image-20210319152559828"></p>]]></content>
     
@@ -68,7 +109,7 @@
     <link href="https://chenquan9807.github.io/2021/03/19/%E5%86%B3%E7%AD%96%E6%A0%91%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/"/>
     <id>https://chenquan9807.github.io/2021/03/19/%E5%86%B3%E7%AD%96%E6%A0%91%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/</id>
     <published>2021-03-19T08:21:16.000Z</published>
-    <updated>2021-03-19T08:22:06.901Z</updated>
+    <updated>2021-03-19T16:22:06.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="决策树-1"><a href="#决策树-1" class="headerlink" title="决策树"></a>决策树</h2><p> <strong>定义：</strong>对实例进行分类的树形结构，通过多层判断区别所属目标</p><p><strong>本质：</strong>通过多层判断，从训练数据集中归纳出一组分类规则</p><p><strong>优点</strong></p><ul><li>计算量小， 运算速度快</li><li>易于理解，可清晰查看各个属性的重要性</li></ul><p><strong>缺点</strong></p><ul><li>忽略属性间的相关行</li><li>样本类别分布不均匀时，容易影响模型表现</li></ul><p>**ID3:**利用信息熵原理选择信息增益最大的属性进行分类属性，递归的拓展决策树的分支，完成决策树的构造</p><p>信息熵：度量随机变量不确定的指标，熵越大，变量的不确定性就越大。假定当前样本集合D中第k类样本所占的比例为: p_x,则D的信息熵为：<br>$$<br>Ent(D)= -\sum_{k=1}^{|y|}p_k\log_2p_k<br>$$<br>根据信息熵可以计算以属性a进行样本划分带来的信息增益：<br>$$<br>Gain(D,a)=Ent(D)-\sum_{v=1}^{V}\frac{D^v}{D}Ent(D^v)<br>$$<br>V为根据属性a划分出的类别数，D为当前样本总数，D^v为类别v样本数</p><p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317205321739.png" alt="image-20210317205321739"></p><p><strong>目标：</strong>划分后样本分布不确定性尽可能小，即划分后信息熵小，信息增益大</p><p>例子：<img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210017020.png" alt="image-20210317210017020"></p><p><img src= "/img/loading.gif" data-lazy-src="/home/forward/.config/Typora/typora-user-images/image-20210317210143861.png" alt="image-20210317210143861"></p>]]></content>
     
@@ -81,9 +122,9 @@
     
     
     
-    <category term="决策树" scheme="https://chenquan9807.github.io/tags/%E5%86%B3%E7%AD%96%E6%A0%91/"/>
-    
     <category term="机器学习" scheme="https://chenquan9807.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="决策树" scheme="https://chenquan9807.github.io/tags/%E5%86%B3%E7%AD%96%E6%A0%91/"/>
     
   </entry>
   
@@ -92,7 +133,7 @@
     <link href="https://chenquan9807.github.io/2021/03/19/pca/"/>
     <id>https://chenquan9807.github.io/2021/03/19/pca/</id>
     <published>2021-03-19T08:19:29.000Z</published>
-    <updated>2021-03-19T08:20:12.179Z</updated>
+    <updated>2021-03-19T16:20:12.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="主成分分析"><a href="#主成分分析" class="headerlink" title="主成分分析"></a>主成分分析</h1><h2 id="数据降维"><a href="#数据降维" class="headerlink" title="数据降维"></a>数据降维</h2><p>在某些限定条件下，降低随机变量个个数，得到一组“不相关”主变量的过程。</p><p><strong>作用：</strong> </p><ul><li>减少模型分析数据量，提升处理效率，降低计算难度</li><li>实现数据可视化</li></ul><h2 id="主成分分析（PCA）"><a href="#主成分分析（PCA）" class="headerlink" title="主成分分析（PCA）"></a>主成分分析（PCA）</h2><p><strong>目标：</strong> 寻找k(k&lt;n)维新数据，使他们反映事物的主要特征</p><p><strong>核心：</strong> 在信息损失尽可能少的情况下，降低数据维度</p><blockquote><p> 投影后的不同数据特征尽可能分得开（即不相关）可以保留主要的信息；</p><p>实现方式：使投影后数据的方差最大，因为方差越大数据也越分散</p></blockquote><p><strong>计算过程：</strong></p><ol><li>原始数据预处理（标准化：$\mu=0, \sigma=1$）</li><li>计算协方差矩阵特征向量、及数据在各特征向量投影后的方差</li><li>根据需求（任务指定或方差比例）确定降维维度k</li><li>选取k维特征向量，计算数据在 其形成空间的投影</li></ol>]]></content>
     
@@ -116,7 +157,7 @@
     <link href="https://chenquan9807.github.io/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/"/>
     <id>https://chenquan9807.github.io/2021/03/14/%E5%B7%A5%E7%A8%8B%E4%BC%A6%E7%90%86/</id>
     <published>2021-03-14T14:32:36.000Z</published>
-    <updated>2021-03-14T14:36:52.889Z</updated>
+    <updated>2021-03-14T22:36:52.000Z</updated>
     
     <content type="html"><![CDATA[<div class="row">    <embed src="./工程伦理.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
@@ -146,7 +187,7 @@
     <link href="https://chenquan9807.github.io/2021/03/14/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"/>
     <id>https://chenquan9807.github.io/2021/03/14/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/</id>
     <published>2021-03-14T14:13:55.000Z</published>
-    <updated>2021-03-14T14:20:29.166Z</updated>
+    <updated>2021-03-14T22:20:28.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="强化学习"><a href="#强化学习" class="headerlink" title="强化学习"></a>强化学习</h2><p><strong>定义:</strong> 强化学习是智能体（Agent）以“试错”的方式进行学习，通过与环境进行交互获得的奖赏指导行为，目标是使智能体获得最大的奖赏，强化学习不同于连接主义学习中的监督学习，主要表现在强化信号上，强化学习中由环境提供的强化信号是对产生动作的好坏作一种评价(通常为标量信号)，而不是告诉强化学习系统RLS(reinforcement learning system)如何去产生正确的动作。由于外部环境提供的信息很少，RLS必须靠自身的经历进行学习。通过这种方式，RLS在行动-评价的环境中获得知识，改进行动方案以适应环境。</p><p>强化学习是从动物学习、参数扰动自适应控制等理论发展而来</p><p><strong>原理：</strong></p><p>​        如果Agent的某个行为策略导致环境正的奖赏(强化信号)，那么Agent以后产生这个行为策略的趋势便会加强。Agent的目标是在每个离散状态发现最优策略以使期望的折扣奖赏和最大。</p><p>​        强化学习把学习看作试探评价过程，Agent选择一个动作用于环境，环境接受该动作后状态发生变化，同时产生一个强化信号(奖或惩)反馈给Agent，Agent根据强化信号和环境当前状态再选择下一个动作，选择的原则是使受到正强化(奖)的概率增大。选择的动作不仅影响立即强化值，而且影响环境下一时刻的状态及最终的强化值。</p><p>​        强化学习不同于连接主义学习中的监督学习，主要表现在教师信号上，强化学习中由环境提供的强化信号是Agent对所产生动作的好坏作一种评价(通常为标量信号)，而不是告诉Agent如何去产生正确的动作。由于外部环境提供了很少的信息，Agent必须靠自身的经历进行学习。通过这种方式，Agent在行动一一评价的环境中获得知识，改进行动方案以适应环境。</p><p>​        强化学习系统学习的目标是动态地调整参数，以达到强化信号最大。若已知r/A梯度信息，则可直接可以使用监督学习算法。因为强化信号r与Agent产生的动作A没有明确的函数形式描述，所以梯度信息r/A无法得到。因此，在<a href="https://baike.baidu.com/item/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0">强化学习</a>系统中，需要某种随机单元，使用这种随机单元，Agent在可能动作空间中进行搜索并发现正确的动作。</p><p><strong>目标：</strong></p><p>​        学习从环境状态到行为的映射，使得智能体选择的行为能够获得环境最大的奖赏，使得外部环境对学习系统在某种意义下的评价(或整个系统的运行性能)为最佳。</p><h3 id="多智能体一致性与强化学习"><a href="#多智能体一致性与强化学习" class="headerlink" title="多智能体一致性与强化学习"></a>多智能体一致性与强化学习</h3><p>传统的方法是基于对多智能体系统进行微分方程建立控制模型，进而针对模型进行控制；而强化学习则一般不需要对系统建立模型，是一种“试错”的控制方法。具体参见强化学习基本模型。</p><hr><h2 id="强化学习基础笔记"><a href="#强化学习基础笔记" class="headerlink" title="强化学习基础笔记"></a>强化学习基础笔记</h2><h3 id="强化学习分类"><a href="#强化学习分类" class="headerlink" title="强化学习分类"></a>强化学习分类</h3><h4 id="1、环境"><a href="#1、环境" class="headerlink" title="1、环境"></a>1、环境</h4><h5 id="不理解环境-Model-Free-RL"><a href="#不理解环境-Model-Free-RL" class="headerlink" title="不理解环境(Model-Free RL)"></a>不理解环境(Model-Free RL)</h5><blockquote><ul><li>Q Learning、Sarsa、Policy Gradients</li></ul></blockquote><h5 id="理解环境（Model-Based-RL）"><a href="#理解环境（Model-Based-RL）" class="headerlink" title="理解环境（Model-Based RL）"></a>理解环境（Model-Based RL）</h5><blockquote><ul><li>增加了虚拟环境</li><li>Q Learning、Sarsa、Policy Gradients</li><li>通过想象预判断来选择较好的情况</li></ul></blockquote><h4 id="2、价值"><a href="#2、价值" class="headerlink" title="2、价值"></a>2、价值</h4><h5 id="基于概率-Policy-Based-RL"><a href="#基于概率-Policy-Based-RL" class="headerlink" title="基于概率(Policy-Based RL)"></a>基于概率(Policy-Based RL)</h5><blockquote><p>通过感官输出概率，来选择动作（不一定选择概率最高，可以用于连续动作）</p><p>Policy Gradients</p></blockquote><h5 id="基于价值（Value-Based-RL）"><a href="#基于价值（Value-Based-RL）" class="headerlink" title="基于价值（Value-Based RL）"></a>基于价值（Value-Based RL）</h5><blockquote><p>输出动作价值，选择价值最高的价值（不可以用于连续动作）</p><p>Q Learning、Sarsa</p></blockquote><p><strong><em>Actor-Critic：</em></strong>为两者结合</p><h4 id="3、单步-回合"><a href="#3、单步-回合" class="headerlink" title="3、单步/回合"></a>3、单步/回合</h4><h5 id="回合更新"><a href="#回合更新" class="headerlink" title="回合更新"></a>回合更新</h5><blockquote><p>一个循环结束后更新</p><p>基础版Policy Gradients、Monte-Carlo Learning </p></blockquote><h5 id="单步更新"><a href="#单步更新" class="headerlink" title="单步更新"></a>单步更新</h5><blockquote><p>每一个步骤都进行更新</p><p>Q Learning、Sarsa、升级版Policy Gradients</p></blockquote><h4 id="4、在线-离线"><a href="#4、在线-离线" class="headerlink" title="4、在线/离线"></a>4、在线/离线</h4><h5 id="在线学习"><a href="#在线学习" class="headerlink" title="在线学习"></a>在线学习</h5><h5 id="离线学习"><a href="#离线学习" class="headerlink" title="离线学习"></a>离线学习</h5>]]></content>
     
@@ -168,7 +209,7 @@
     <link href="https://chenquan9807.github.io/2020/11/15/k-means/"/>
     <id>https://chenquan9807.github.io/2020/11/15/k-means/</id>
     <published>2020-11-15T08:14:37.000Z</published>
-    <updated>2020-11-15T09:30:04.371Z</updated>
+    <updated>2021-02-07T17:30:42.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="K-means-笔记"><a href="#K-means-笔记" class="headerlink" title="K-means 笔记"></a>K-means 笔记</h1><ul><li>K-means 一种无监督的聚类算法<blockquote><p>将相同类别的点聚集在一起，对于不同类别尽量的区分开</p></blockquote></li><li><strong>核心目标：</strong> 将给定的数据划分为K个簇，并且给出每个簇的中心点，即质心<br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k1.png" alt="k-means实例"><h2 id="K-means-算法步骤"><a href="#K-means-算法步骤" class="headerlink" title="K-means 算法步骤"></a>K-means 算法步骤</h2></li></ul><ol><li>数据预处理： 剔除离群点、数据归一化、数据标准化</li><li>初始化： 随机选择K个中心点u<sup>(0)</sup><sub>1</sub>, u<sup>(0)</sup><sub>2</sub>, u<sup>(0)</sup><sub>3</sub>, …, u<sup>(0)</sup><sub>K</sub> </li><li>定义损失函数：<br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k2.png" alt="损失函数J"></li><li>交替迭代(t为步数，重复一下两个步骤直到J收敛)</li></ol><ul><li><blockquote><p>对于每个样本点，将其分配到距离最近的簇<br><br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k3.png" alt="点到质心距离"></p></blockquote></li><li><blockquote><p>对于每个簇，重新计算聚类质心<br><br><img src= "/img/loading.gif" data-lazy-src="/2020/11/15/k-means/k4.png" alt="更新聚类中心 "></p></blockquote></li></ul><h2 id="K-means算法缺点"><a href="#K-means算法缺点" class="headerlink" title="K-means算法缺点"></a>K-means算法缺点</h2><ol><li>人工选取k值， 不一定符合数据分布</li><li>收初始值和离群点的影响较为严重，稳定性差<br>##　K-means算法优点</li><li>对于大数据集，算法时间读咋读为线性Ｏ(NKT)<blockquote><p>Ｎ: 样本点个数<br>K: 聚类中心个个数<br>T: 迭代轮数</p></blockquote></li><li>局部最优解通常已经可以满足问题需要</li></ol><h2 id="k-means算法调优"><a href="#k-means算法调优" class="headerlink" title="k-means算法调优"></a>k-means算法调优</h2><ol><li>K值选择（手肘法）</li></ol><h2 id="k-means算法改进"><a href="#k-means算法改进" class="headerlink" title="k-means算法改进"></a>k-means算法改进</h2><ul><li>改进点： 对初始值的选择进行优化</li><li>k-means++算法<ul><li>改进思想： 选取第n+1个聚类中心时：</li><li>距离其他聚类中心越远，被选中的概率越大</li></ul></li></ul>]]></content>
     
@@ -183,9 +224,9 @@
     
     
     
-    <category term="鸢尾花" scheme="https://chenquan9807.github.io/tags/%E9%B8%A2%E5%B0%BE%E8%8A%B1/"/>
-    
     <category term="K-means" scheme="https://chenquan9807.github.io/tags/K-means/"/>
+    
+    <category term="鸢尾花" scheme="https://chenquan9807.github.io/tags/%E9%B8%A2%E5%B0%BE%E8%8A%B1/"/>
     
   </entry>
   
@@ -194,7 +235,7 @@
     <link href="https://chenquan9807.github.io/2020/11/08/ex1/"/>
     <id>https://chenquan9807.github.io/2020/11/08/ex1/</id>
     <published>2020-11-08T12:17:19.000Z</published>
-    <updated>2020-11-08T12:19:11.331Z</updated>
+    <updated>2020-11-08T20:19:10.000Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line">import numpy as np</span><br><span class="line">import pandas as pd</span><br><span class="line">import matplotlib.pyplot as plt</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data &#x3D; np.loadtxt(&#39;ex1data1.txt&#39;, delimiter&#x3D;&#39;,&#39;)</span><br><span class="line">x &#x3D; data[:, 0]</span><br><span class="line">y &#x3D; data[:, 1]</span><br><span class="line">m &#x3D; y.size</span><br><span class="line">y &#x3D; y.reshape(-1, 1)</span><br><span class="line"></span><br><span class="line">plt.figure(0)</span><br><span class="line">fg1 &#x3D; plt.scatter(x, y, marker&#x3D;&#39;x&#39;, c&#x3D;&#39;r&#39;)</span><br><span class="line">plt.xlabel(&#39;profit in $10,000s&#39;)</span><br><span class="line">plt.ylabel(&#39;Population of City in 10,000s&#39;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 正规方程发</span><br><span class="line"># x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line"># theta &#x3D; np.linalg.inv(x.T@x)@x.T@y</span><br><span class="line"># print(theta)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 代价函数</span><br><span class="line">def computerCost(X, Y, Theta):</span><br><span class="line">    inner &#x3D; X @ Theta.T - Y</span><br><span class="line">    J &#x3D; np.sum(inner * inner) &#x2F; (2 * Y.size)</span><br><span class="line">    return J</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 梯度下降法</span><br><span class="line">x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">theta &#x3D; np.zeros([1, 2])</span><br><span class="line">alpha &#x3D; 0.01</span><br><span class="line">epoch &#x3D; 1000</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># 梯度下降函数</span><br><span class="line">def gradientDescent(X, Y, Theta, Alpha&#x3D;0.01, Epoch&#x3D;1000):</span><br><span class="line">    Cost &#x3D; np.zeros([Epoch, 1])</span><br><span class="line">    for i in range(Epoch):</span><br><span class="line">        inner &#x3D; X @ Theta.T - Y</span><br><span class="line">        for j in range(Theta.size):</span><br><span class="line">            Xg &#x3D; X[:, j].reshape(-1, 1)</span><br><span class="line">            inner &#x3D; inner * Xg</span><br><span class="line">            Theta[0, j] &#x3D; Theta[0, j] - (Alpha&#x2F;m) * np.sum(inner)</span><br><span class="line">        Cost[i] &#x3D; computerCost(X, Y, Theta)</span><br><span class="line">    return Cost, Theta</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">cost, theta &#x3D; gradientDescent(x, y, theta, alpha, epoch)</span><br><span class="line">plt.figure(0)</span><br><span class="line">x2 &#x3D; np.linspace(x[:, 1].min(), x[:, 1].max(), 100)</span><br><span class="line">y2 &#x3D; theta[0, 0] + theta[0, 1] * x2</span><br><span class="line">fg2 &#x3D; plt.plot(x2, y2)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -220,7 +261,7 @@
     <link href="https://chenquan9807.github.io/2020/11/06/tree/"/>
     <id>https://chenquan9807.github.io/2020/11/06/tree/</id>
     <published>2020-11-06T07:02:11.000Z</published>
-    <updated>2020-11-06T08:12:39.267Z</updated>
+    <updated>2020-11-06T16:12:38.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="决策树"><a href="#决策树" class="headerlink" title="决策树"></a>决策树</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p><strong>决策树自上而下，树形分类的算法；有监督的算法</strong><br><strong>学习过程</strong>　</p><ul><li>特征选择　　</li><li>决策树生成　　</li><li>决策树剪枝　　</li></ul><p><strong>熵</strong></p><ul><li>随机变量的不确定程度</li><li>$ H(x) = －\sum_{i=0}^n pi * log(pi) $</li><li>熵越大不确定性就越大</li></ul><h2 id="ID3-算法"><a href="#ID3-算法" class="headerlink" title="ID3 算法"></a>ID3 算法</h2><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol><li>计算数据集D的熵</li><li>计算某个特征A对于数据集D的条件熵H(D|A)</li><li>计算信息增益g(D,A) = H(D) - H(D|A)<h3 id="局限性"><a href="#局限性" class="headerlink" title="局限性"></a>局限性</h3></li></ol><ul><li>只能处理离散型变量，无法处理连续性变量</li><li>对样本缺失值比较敏感</li><li>每次分裂亲相遇取值多的特征，发哦之泛化性能较差</li></ul><h2 id="决策树的剪枝"><a href="#决策树的剪枝" class="headerlink" title="决策树的剪枝　"></a>决策树的剪枝　</h2><ul><li>提高决策树的泛化能生长力<h3 id="剪枝方法"><a href="#剪枝方法" class="headerlink" title="剪枝方法"></a>剪枝方法</h3><h4 id="预剪枝"><a href="#预剪枝" class="headerlink" title="预剪枝"></a>预剪枝</h4>树节点分裂之前，先计算划分是否可以提升模型的泛化能力</li><li>三种情况<ol><li>当树达到一定的深度时，停止树的生长</li><li>到达当前节点的样本数量小于某个阈值时，停止生长</li><li>计算每次分裂对测试集准确率的提升，小于某个阈值时不再生长<h4 id="后剪枝"><a href="#后剪枝" class="headerlink" title="后剪枝"></a>后剪枝</h4>完全生长成的决策树，然后自底向上进行减枝</li></ol></li><li>原则<ul><li>测试集上准确率的提升</li></ul></li></ul>]]></content>
     
@@ -233,9 +274,9 @@
     
     
     
-    <category term="决策树" scheme="https://chenquan9807.github.io/tags/%E5%86%B3%E7%AD%96%E6%A0%91/"/>
-    
     <category term="机器学习" scheme="https://chenquan9807.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="决策树" scheme="https://chenquan9807.github.io/tags/%E5%86%B3%E7%AD%96%E6%A0%91/"/>
     
   </entry>
   
@@ -244,7 +285,7 @@
     <link href="https://chenquan9807.github.io/2020/11/05/logisticRegression/"/>
     <id>https://chenquan9807.github.io/2020/11/05/logisticRegression/</id>
     <published>2020-11-05T07:55:25.000Z</published>
-    <updated>2020-11-05T08:03:34.623Z</updated>
+    <updated>2020-11-05T16:03:34.000Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br></pre></td><td class="code"><pre><span class="line">from sklearn.model_selection import train_test_split</span><br><span class="line">import matplotlib.pyplot as plt</span><br><span class="line">import numpy as np</span><br><span class="line">import pandas as pd</span><br><span class="line"></span><br><span class="line"># Data load</span><br><span class="line">iris &#x3D; pd.read_csv(&#39;.&#x2F;Iris&#x2F;iris.data&#39;)</span><br><span class="line"></span><br><span class="line"># Data process</span><br><span class="line">iris &#x3D; iris.values.reshape((-1, 5))</span><br><span class="line">xData &#x3D; iris[:, 0:4].reshape((-1, 4))</span><br><span class="line">yData &#x3D; pd.Categorical(iris[:, -1])</span><br><span class="line">yData &#x3D; yData.codes.reshape((-1, 1))</span><br><span class="line"></span><br><span class="line">x0 &#x3D; xData[0:100, :]</span><br><span class="line">x1 &#x3D; xData[50:150, :]</span><br><span class="line"># x2 &#x3D; xData[100:150, :]</span><br><span class="line"># x2 &#x3D; np.concatenate((xData[0:50, :], x2))</span><br><span class="line">y0 &#x3D; yData[:100, :]</span><br><span class="line">y1 &#x3D; yData[50:150, :] - 1</span><br><span class="line"># y2 &#x3D; yData[100:150, :] - 1</span><br><span class="line"># y2 &#x3D; np.concatenate((yData[0:50, :], y2))</span><br><span class="line"></span><br><span class="line"># 训练集，测试集的划分</span><br><span class="line">x0Train, x0Test, y0Train, y0Test &#x3D; train_test_split(x0, y0, random_state&#x3D;0)</span><br><span class="line">x1Train, x1Test, y1Train, y1Test &#x3D; train_test_split(x1, y1, random_state&#x3D;0)</span><br><span class="line"># x2Train, x2Test, y2Train, y2Test &#x3D; train_test_split(x2, y2, random_state&#x3D;0)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Init</span><br><span class="line">def init(x):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    return x, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def sigmoid(z):</span><br><span class="line">    return 1 &#x2F; (1 + np.exp(-z.astype(float)))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def logisticRegression(x, y, learning_rate, epoch):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    w &#x3D; np.zeros(shape&#x3D;(1, x.shape[1]))</span><br><span class="line">    cost &#x3D; np.zeros(shape&#x3D;(epoch, 1))</span><br><span class="line">    for i in range(epoch):</span><br><span class="line">        g &#x3D; sigmoid(np.dot(x, w.T))  # mx1</span><br><span class="line">        inner &#x3D; g - y</span><br><span class="line">        for j in range(w.size):</span><br><span class="line">            xj &#x3D; x[:, j].reshape(-1, 1)  # mx1</span><br><span class="line">            inner &#x3D; inner * xj</span><br><span class="line">            w[0, j] &#x3D; w[0, j] - (learning_rate &#x2F; m) * np.sum(inner)</span><br><span class="line">        cost[i] &#x3D; (- 1 &#x2F; m) * np.sum(y * np.log(g) + (1 - y) * (np.log(1 - g)))</span><br><span class="line">    return cost, w</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># predict</span><br><span class="line">def test(x, y, w):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y_predict &#x3D; sigmoid(np.dot(x, w.T))</span><br><span class="line">    y_predict &#x3D; np.where(y_predict &gt;&#x3D; 0.5, 1, y_predict)</span><br><span class="line">    y_predict &#x3D; (np.where(y_predict &lt; 0.5, 0, y_predict)).astype(np.int16)</span><br><span class="line">    print(list(y_predict.T-y.T)[0])</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">def predict(x, w0, w1):</span><br><span class="line">    m &#x3D; x.shape[0]</span><br><span class="line">    x &#x3D; np.column_stack((np.ones([m, 1]), x))</span><br><span class="line">    y0_predict &#x3D; 0 if (sigmoid(np.dot(x, w0.T)) &lt; 0.5) else 1</span><br><span class="line">    y1_predict &#x3D; 0 if (sigmoid(np.dot(x, w1.T)) &lt; 0.5) else 1</span><br><span class="line">    # y2_predict &#x3D; 0 if (sigmoid(np.dot(x, w2.T)) &lt; 0.5) else 1</span><br><span class="line">    # y0_predict &#x3D; sigmoid(np.dot(x, w0.T))</span><br><span class="line">    # y1_predict &#x3D; sigmoid(np.dot(x, w1.T))</span><br><span class="line">    # y2_predict &#x3D; sigmoid(np.dot(x, w2.T))</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 0 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-setosa&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 0:</span><br><span class="line">        print(&#39;The specie of X is Iris-versicolor&#39;)</span><br><span class="line">    if y0_predict &#x3D;&#x3D; 1 and y1_predict &#x3D;&#x3D; 1:</span><br><span class="line">        print(&#39;The specie of X is Iris-virginica&#39;)</span><br><span class="line">    # print(y0_predict, y1_predict)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">Cost0, W0 &#x3D; logisticRegression(x0Train, y0Train, 0.01, 500)</span><br><span class="line">test(x0Test, y0Test, W0)</span><br><span class="line">plt.plot(Cost0)</span><br><span class="line"></span><br><span class="line">Cost1, W1 &#x3D; logisticRegression(x1Train, y1Train, 0.01, 500)</span><br><span class="line">test(x1Test, y1Test, W1)</span><br><span class="line">plt.plot(Cost1)</span><br><span class="line"></span><br><span class="line"># Cost2, W2 &#x3D; logisticRegression(x2Train, y2Train, 0.01, 500)</span><br><span class="line"># test(x2Test, y2Test, W2)</span><br><span class="line"># plt.plot(Cost2)</span><br><span class="line"># plt.show()</span><br><span class="line">X0 &#x3D; np.array([5.1, 3.4, 1.5, 0.2]).reshape((1, -1))</span><br><span class="line">X1 &#x3D; np.array([4.9, 2.4, 3.3, 1.0]).reshape((1, -1))</span><br><span class="line"># X2 &#x3D; np.array([6.3, 2.5, 5.0, 1.9]).reshape((1, -1))</span><br><span class="line">print(&#39;y&#x3D;0&#39;)</span><br><span class="line">predict(X0, W0, W1)</span><br><span class="line">print(&#39;__________________\ny&#x3D;1&#39;)</span><br><span class="line">predict(X1, W0, W1)</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -259,13 +300,13 @@
     
     <category term="DeepLearning" scheme="https://chenquan9807.github.io/tags/DeepLearning/"/>
     
+    <category term="鸢尾花" scheme="https://chenquan9807.github.io/tags/%E9%B8%A2%E5%B0%BE%E8%8A%B1/"/>
+    
     <category term="Iris" scheme="https://chenquan9807.github.io/tags/Iris/"/>
     
     <category term="梯度下降" scheme="https://chenquan9807.github.io/tags/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/"/>
     
     <category term="逻辑回归" scheme="https://chenquan9807.github.io/tags/%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/"/>
-    
-    <category term="鸢尾花" scheme="https://chenquan9807.github.io/tags/%E9%B8%A2%E5%B0%BE%E8%8A%B1/"/>
     
   </entry>
   
@@ -274,7 +315,7 @@
     <link href="https://chenquan9807.github.io/2020/10/26/multiAgent2/"/>
     <id>https://chenquan9807.github.io/2020/10/26/multiAgent2/</id>
     <published>2020-10-26T04:33:39.000Z</published>
-    <updated>2020-10-26T04:33:50.957Z</updated>
+    <updated>2020-10-26T12:33:50.000Z</updated>
     
     <content type="html"><![CDATA[<div class="row">    <embed src="./multiAgent2.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
@@ -301,7 +342,7 @@
     <link href="https://chenquan9807.github.io/2020/10/26/multiAgent/"/>
     <id>https://chenquan9807.github.io/2020/10/26/multiAgent/</id>
     <published>2020-10-26T04:26:59.000Z</published>
-    <updated>2020-10-26T04:27:48.182Z</updated>
+    <updated>2020-10-26T12:27:48.000Z</updated>
     
     <content type="html"><![CDATA[<div class="row">    <embed src="./multiAgent.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
     
@@ -328,7 +369,7 @@
     <link href="https://chenquan9807.github.io/2020/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
     <id>https://chenquan9807.github.io/2020/09/12/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/</id>
     <published>2020-09-12T13:49:07.000Z</published>
-    <updated>2020-09-13T03:20:27.326Z</updated>
+    <updated>2020-09-13T11:20:40.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="线性代数"><a href="#线性代数" class="headerlink" title="线性代数"></a>线性代数</h1><h2 id="标量、向量、矩阵和张量"><a href="#标量、向量、矩阵和张量" class="headerlink" title="标量、向量、矩阵和张量"></a>标量、向量、矩阵和张量</h2><ol><li>标量：一个标量一个单独的数。<ul><li>斜体小写的变量名称表示；</li></ul></li><li>向量：一个向量就是一列数。<ul><li>粗体小写的变量名称表示；</li></ul></li><li>矩阵：矩阵是一个二维数组。<ul><li>粗体的大写变量名称表示；</li><li>“:”表示水平坐标。<strong>A</strong><sub>i,:</sub>表示<strong>A</strong>中i行上的一排元素。</li><li><em>f</em>(<strong>A</strong>)<sub>i,j</sub>表示汉书<em>f</em>的作用下在<strong>A</strong>上输出的矩阵的第i行第j列元素。</li></ul></li><li>张量：一般的，一个数组中的元素分布在若干维坐标的规则网络，我们称之为张量。记作A<sub>i,j,k</sub>  </li></ol><p>深度学习中会使用一些简化的式子，如：C=A+b。其中C<sub>i,j</sub>=A<sub>i,j</sub>+b<sub>j</sub>。这种隐式地复制向量b到很多位置的方式，称为<strong>广播</strong>。</p><h2 id="矩阵和向量相乘"><a href="#矩阵和向量相乘" class="headerlink" title="矩阵和向量相乘"></a>矩阵和向量相乘</h2><p><code>C = AB</code><br>其中要求A为mxn,B为nxp，则C为mxp。<br>**元素对应乘积(Hadamard乘积)**：两个矩阵对应元素乘积。</p><h2 id="单位矩阵和逆矩阵"><a href="#单位矩阵和逆矩阵" class="headerlink" title="单位矩阵和逆矩阵"></a>单位矩阵和逆矩阵</h2><p>A<sup>-1</sup>A=I<sub>n</sub></p><ul><li>行列式为0的矩阵一定不可逆.</li><li>若矩阵可逆则他的逆一定唯一.</li></ul>]]></content>
     
@@ -352,7 +393,7 @@
     <link href="https://chenquan9807.github.io/2020/09/06/DeepLearning-img/"/>
     <id>https://chenquan9807.github.io/2020/09/06/DeepLearning-img/</id>
     <published>2020-09-06T03:58:24.000Z</published>
-    <updated>2020-10-26T03:48:57.029Z</updated>
+    <updated>2020-10-26T11:48:56.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="深度学习"><a href="#深度学习" class="headerlink" title="深度学习"></a>深度学习</h1><p>&emsp;&emsp; 深度学习逐渐成为人工智能领域的研究热点和主流发展方向。它蕴含了什么样的魅力可以让国家出台政策支持并且持续吸引社会关注？下文将从深度学习的历史变迁、特点、网络结构、技术类别、应用领域和面临的问题等几个角度去了解。  </p><h1 id="一、深度学习的历史与变迁"><a href="#一、深度学习的历史与变迁" class="headerlink" title="一、深度学习的历史与变迁"></a>一、深度学习的历史与变迁</h1><p>&emsp;&emsp;一般认为，迄今为止深度学习已经经历了三次发展浪潮：20世纪40年代到60年代，深度学习的雏形出现在控制论中；20世纪80年代到90年代，深度学习表现为联结主义；直到2006年，才以深度学习之名为众人所知。<br><img src= "/img/loading.gif" data-lazy-src="/2020/09/06/DeepLearning-img/%E4%B8%89%E6%AC%A1%E6%B5%AA%E6%BD%AE.png" alt="深度学习的三次浪潮"><br>&emsp;&emsp;第一次浪潮开始于20世纪40年代到60年代的控制论，随着生物学习理论的发展和第一个模型的实现（如感知机），能实现单个神经元的训练。控制论是从神经学角度出发的简单线性模型。这些模型<br>被设计为使用一组 n 个输入 x1,…, xn 并将它们与一个输出 y 相关联。这些模型希望学习一组权重w1,…, wn，并计算它们的输出 <code>f(x, w) = x1w1 + … + xnwn</code>。<br>这第一波神经网络研究浪潮被称为控制论。<br>&emsp;&emsp;第二次浪潮开始于 1980-1995 年间的联结主义方法，可以使用反向传播训练具有一两个隐藏层的神经网络。在 20 世纪 80 年代，神经网络研究的第二次浪潮在很大程度上是伴随一个被称为联结主义或并行分布处理潮流而出现的。联结主义是在认知 科学的背景下出现的。认知科学是理解思维的跨学科途径，即它融合多个不同的分析层次。联结主义的中心思想是，当网络将大量简单的计算单元连接在一起时可以实现智能行为。这种见解同样适用于生物神经系统中的神经元，因为它和计算模型中隐藏单元起着类似的作用。<br>&emsp;&emsp;当前第三次浪潮，也就是深度学习，大约始于 2006 年并且现在在 2016 年以书的形式出现。由于算法的改进以及大量的训练样本的支持，再加上计算能力的进步，训练深层、复杂的神经网络成为可能，他们在图像语音识别等具有挑战性的问题上显示出明显的优势。此时，深度神经网络已经优于与之竞争的基于其他机器学习技术以及手工设计功能的 AI 系统。第三次浪潮已开始着眼于新的无监督学习技术和深度模型在小数据集的泛化能力，但目前更多的兴趣点仍是比较传统的监督学习算法和深度模型充分利用大型标注数据集的能力。</p><h1 id="二、深度学习的特点"><a href="#二、深度学习的特点" class="headerlink" title="二、深度学习的特点"></a>二、深度学习的特点</h1><p>&emsp;&emsp;深度学习是一种深层的机器学习模型，其深度体现在对特征的多次变换上。常用的深度学习模型为多层神经网络，神经网络的每一层都会将输入进行非线性映射，通过多层非线性映射的堆叠，在深层神经网络中计算出抽象的特征来帮助分类。其含有多层网络模型，并且学习过程也是由低到高逐层映射到新的特征空间，具有层次化和分布式抽象的特点，这样可以拟合复杂的非线性函数，处理更高维度的非线性输入数据。<br>深度学习网络结构进行学习的特点如下：</p><ol><li>利用无监督学习来对每一层网络进行预训练； </li><li>每次用无监督学习只训练一层，并将输出的训练结果 作为其高一层的输入；</li><li>用自顶而下的监督算法去调整所有层。<h1 id="三、深度学习网络结构"><a href="#三、深度学习网络结构" class="headerlink" title="三、深度学习网络结构"></a>三、深度学习网络结构</h1><h2 id="3-1-循环神经网络"><a href="#3-1-循环神经网络" class="headerlink" title="3.1 循环神经网络"></a>3.1 循环神经网络</h2>&emsp;&emsp;循环神经网络（Recurrent Neural Network, RNN）是一种以序列数据为输入，在序列的演进方向进行递归且所有节点按链式连接形成闭合回路的递归神经网络。<br><img src= "/img/loading.gif" data-lazy-src="/2020/09/06/DeepLearning-img/RNN.png" alt="RNN结构"><br>&emsp;&emsp;如图3.1所示的闭合回路连接是循环神经网络的核心部分。循环神经网络它们对于序列中每个元素都执行相同的任务，输出依赖于之前的计算即循环神经网络具有记忆功能，记忆可以捕获迄今为止已经计算过的信息。<h2 id="3-2-卷积神经网络"><a href="#3-2-卷积神经网络" class="headerlink" title="3.2 卷积神经网络"></a>3.2 卷积神经网络</h2>&emsp;&emsp;卷积神经网络（Convolutional Neural Networks, CNN）是一种既有深度结构又包含卷积计算的前馈神经网络，是深度学习的常用算法之一。卷积神经网络的组成结构如图3.2所示。<br>！<a href="CNN.png">CNN结构</a><h2 id="3-3-深度置信技术"><a href="#3-3-深度置信技术" class="headerlink" title="3.3 深度置信技术"></a>3.3 深度置信技术</h2>&emsp;&emsp;深度置信网络（DBN）由对生物神经网络及浅层神经网络的研究发展而来的一种概率统计模型。深度置信网络主要分成两部分。第一部分是多层玻尔兹曼感知机，用于预训练我们的网络。第二部分是前馈反向传播网络，这可以使RBM堆叠的网络更加精细化。提升模型分类性能。<br><img src= "/img/loading.gif" data-lazy-src="/2020/09/06/DeepLearning-img/DBN.png" alt="DBN结构"><br>&emsp;&emsp;系统DBN在结构上是由无监督网络和受限玻尔兹曼机堆叠组合而成，结构模型如图3.3所示。数据是自上而下进行传递的，低层的 RBM的输出结果作为高一层的RBM的输入，每个RBM都是由可见层和隐含层组成，层与层之间由权重连接，这种逐层传递的方式，使特征表达能力越来越强。<h1 id="四、深度学习技术类别"><a href="#四、深度学习技术类别" class="headerlink" title="四、深度学习技术类别"></a>四、深度学习技术类别</h1>&emsp;&emsp;根据网络模型参数的确定方法，深度学习技术可以分为监督学习技术、非监督学习技术和增强学习技术三类。其中监督深度学习技术中网络模型参数是利用带标注的训练数据对网络进行训练而得到的，非监督深度学习技术中网络模型参数的确定则无需带标注的训练数据，增强深度学习技术中网络模型参数是利用特定评分策略对网络输出进行评分后确定的。<h2 id="4-1-监督深度学习技术"><a href="#4-1-监督深度学习技术" class="headerlink" title="4.1 监督深度学习技术"></a>4.1 监督深度学习技术</h2>&emsp;&emsp;监督深度学习技术主要包括多层感知器、卷积神经网络和循环神经网络等。多层感知器技术是早期神经网络研究的基础性成果，也是衡量深度神经网络性能的对比参照基础；卷积神经网络包括分类网络、检测网络、分割网络、跟踪网络 和轻量化网络；循环神经网络主要包括长时短期记网络和门限循环单元网络。<br>&emsp;&emsp;一般情况下，卷积神经网络均属于前馈神经网络，信息按神经元在网络中层次由浅至深地进行处理，而层次较浅的神经元参数不会受到层次较深的神经元输出的控制，即网络没有记忆，因此通常不适用于序列学习。循环神经网络引入了深层神经元输出到浅层神经元输入和状态的控制机制，使网络具有记忆功能，更适用于序列学习。由于绝大部分经典自然语言处理任务均属于序列学习的范畴，因此，循环神经网络在自然语言处理领域取得了广泛的应用。经典的循环神经 网络主要包括长时短期记忆网络系和门限循环单元网络。<h2 id="4-2-非监督深度学习技术"><a href="#4-2-非监督深度学习技术" class="headerlink" title="4.2 非监督深度学习技术"></a>4.2 非监督深度学习技术</h2>&emsp;&emsp;非监督深度学习技术主要包括玻尔兹曼机、 自编码器和生成对抗网络等。虽然可以使用监督学习的方式训练网络，但受限玻尔兹曼机通常被视为一种早期经典的深度非监督学习技术。自编码器能够通过无监督学习，生成输入数据低维表示，可用于数据的去噪、降维和特征表示等任务。自编码器一般均是采用编码器-译码器结构，实现自监督学习，主要包括VAE、Stacked Denoising AE 和 Transforming AE 等技术。生成对抗网络是近年来非监督深度学习技术的研究 热点之一，主要包括GAN、CGAN、WGAN、 EBGAN、infoGAN、BigGAN 和 SimGAN 等。生成对抗网络的主要思想是利用生成模型和分辨模型之间的竞争关系，在网络损失度量中包含利于一个模型而不利于另一模型的部分，训练过程使生成模型输出将输入噪声信号尽可能逼近信息输入，而同时提高分辨模型分类与生成模型信息输出与输入的正确性，从而达到网络整体性能的优化。<h2 id="4-3-增强深度学习技术"><a href="#4-3-增强深度学习技术" class="headerlink" title="4.3 增强深度学习技术"></a>4.3 增强深度学习技术</h2>&emsp;&emsp;增强深度学习技术主要包括Q学习和策略梯度学习。Q学习的核心思想是利用深度神经网络，逼近贝尔曼方程描述的递归约束关系。Q学习算法一般采用估计、决策和更新的迭代过程, 经典的估计方法有蒙特卡洛树搜索算法、动态规划算法等，基本的Q学习方法有DQN、Double DQN、Prioritized DQN 和 DRQN 等。策略梯度 学习的基本方法是利用深度神经网络，实现策略的参数化，并通过梯度优化控制参数权重，选择较好的行为实现策略，常用的策略梯度有有限差分策略梯度、蒙特卡洛策略梯度、Actor- Critic 策略梯度等，主要的策略梯度学习方法有 REINFORCE、TRPO、DGP、DDGP 等。</li></ol><h1 id="五、深度学习技术应用"><a href="#五、深度学习技术应用" class="headerlink" title="五、深度学习技术应用"></a>五、深度学习技术应用</h1><h2 id="5-1-语音识别"><a href="#5-1-语音识别" class="headerlink" title="5.1 语音识别"></a>5.1 语音识别</h2><p>&emsp;&emsp;语音识别系统长期以来，描述每个建模单元的统计概率模型的时候，大都采用的是混合高斯模型。这种模型由于估计简单，适合海量数据训练，同时有成熟的区分度训练技术支持，长期以来，一直在语音识别应用中占有垄断性地位。但是这种混合高斯模型本质上是⼀种浅层⽹络建模，不能够充分描述特征的状态空间分布。另外，GMM建模的特征维数一般是几十维，不能充分描述特征之间的相关性。最后GMM建模本质上是⼀种似然概率建模，虽然区分度训练能够模拟⼀些模式类之间的区分性，但是能⼒有限。<br>&emsp;&emsp;采用深度神经⽹络后，可以充分描述特征之间的相关性，可以把连续多帧的语⾳特征并在⼀起，构成一个高维特征。最终的深度神经⽹络可以采⽤⾼维特征训练来模拟的。由于深度神经⽹络采⽤模拟⼈脑的多层结果，可以逐级地进⾏信息特征抽取，最终形成适合模式分类的较理想特征。这种多层结构和人脑处理语⾳图像信息的时候，是有很⼤的相似性的。深度神经⽹络的建模技术能够无缝与传统的语音识别技术结合，大幅度地提升了语音识别系统的识别率。</p><h2 id="5-2-图形识别"><a href="#5-2-图形识别" class="headerlink" title="5.2 图形识别"></a>5.2 图形识别</h2><p>&emsp;&emsp;图像是深度学习最早尝试的应⽤领域。CNN是⼀种带有卷积结构的深度神经⽹络，通常至少有2个⾮线性可训练的卷积层和2个⾮线性的固定卷积层，又叫和1个全连接层，⼀共⾄少5个隐含层。<br>深度学习应用于图像识别不但⼤⼤提升了准确性，⽽且避免了⼈⼯特征抽取的 时间消耗，从而大大提高了在线计算效率。可以很有 把握地说，从现在开始，深度学习将取代⼈⼯特征 + 机器学习的⽅法⽽逐渐成为主流图像识别⽅法。</p><h2 id="5-3-自然语言处理"><a href="#5-3-自然语言处理" class="headerlink" title="5.3 自然语言处理"></a>5.3 自然语言处理</h2><p>&emsp;&emsp;除了语⾳和图像!深度学习的另⼀个应⽤领域问题⾃然语⾔处理。经过⼏⼗年的发展!基于 统计的模型已经成为NLP的主流。<br>最早的深度学习用于NLP的研究工作诞生于NEC Labs America，其研究员采用embedding和多层一维卷积结构。总体上深度学习在NLP上去的成就没有在语音图像上那么令人印象深刻。</p><h2 id="5-4-搜索广告CTR预估"><a href="#5-4-搜索广告CTR预估" class="headerlink" title="5.4 搜索广告CTR预估"></a>5.4 搜索广告CTR预估</h2><p>&emsp;&emsp;传统的搜索广告的pCTR是通过机器学习模型预估得到的。提高预估pCTR的准确性，是提升搜索公司、广告主、搜索用户三方利益的最佳途径。<br>&emsp;&emsp;百度将DNN用于搜索广告以突破扁平结构的LR对模型学习与抽象特征的限制，并将特征数量级从1011将为103，从而可以被CNN正常学习。DNN在搜索广告系统中的应用还远远没到成熟，其中DNN与迁移学习的结合将可能是一个令人振奋的⽅向。使用DNN未来的搜索广告将可能借助网页搜索的结果优化特征的学习与提取；亦可能通过DNN将不同的产品线联系起来。</p><h1 id="六、面临的问题"><a href="#六、面临的问题" class="headerlink" title="六、面临的问题"></a>六、面临的问题</h1><p>&emsp;&emsp;随着深度学习理论的进一步深入发展和应用领域 的不断拓展，深度学习技术自身存在的一系列瓶 颈问题也逐渐显现出来，成为了制约深度学习技 术进一步突破的主要问题。</p><h2 id="6-1-可解释性问题"><a href="#6-1-可解释性问题" class="headerlink" title="6.1 可解释性问题"></a>6.1 可解释性问题</h2><p>&emsp;&emsp;深度神经网络一般包含多个隐藏层，运算单元的数量十分庞大，网络参数更是数不胜数，对参数的选取和运算单元的输 出常常无法解释；新的深度神经网络还引入了各种复杂的网络结构，进一步加剧了可解释性问题的严重性。可解释性问题是深度神经网络深入发展的主要瓶颈问题之一，有理论将网络视为决策树结构，但过于复杂的结构超出了人类容易理解和分析优化的能力范畴。</p><h2 id="6-2-网络优化问题"><a href="#6-2-网络优化问题" class="headerlink" title="6.2 网络优化问题"></a>6.2 网络优化问题</h2><p>&emsp;&emsp;目前的深度神经网络主要依靠对指定的损失函数执行反向传播算法 实现网络参数优化，该算法仅能针对特定的网络结构实现按梯度的优化计算。由于实际学习问题往往没有梯度最优解，算法不能保证网络 参数的选择实现了全局最优化。此外，网络构预先确定，也限制了处理复杂学习问题时的性能；如将网络结构也作为可优化选项，则仅有部 分搜索理论提供了参考性结果。深度神经网络的整体优化是限制深度学习技术取得突破的另一主要瓶颈问题。</p><h2 id="6-3-数据稀缺问题"><a href="#6-3-数据稀缺问题" class="headerlink" title="6.3 数据稀缺问题"></a>6.3 数据稀缺问题</h2><p>&emsp;&emsp;目前的监督深度学习技术需要应用领域有大量的标注数据，才能训练网络参数，衡量学习性能；非监督深度学习技术 尚处于发展的起步阶段，虽然在诸如风格迁移、目标跟踪、词嵌入等领域有所突破，很多经典的监督机器学习场景任务尚不能使用非监督深度学习技术实现。为克服数据稀缺性问题，深度迁移学习、小样本深度学习技术已经成为了目前的研究热点，但距离根本性解决数据稀缺性问题尚有一段距离。</p><h2 id="6-4-实现复杂度问题"><a href="#6-4-实现复杂度问题" class="headerlink" title="6.4 实现复杂度问题"></a>6.4 实现复杂度问题</h2><p>&emsp;&emsp;相对大部分已经取得广泛应用的浅层机器学习技术而言，深度神 经网络需要的运算复杂度高、存储量大、运算时间长，虽然在应用中不需要训练网络，但仍难于在各种低成本终端中应用。虽然已有相关轻量化深度神经网络研究技术出现，但距离全面解决深度神经网络的复杂度问题尚有一定的差距。</p><h1 id="七、总结"><a href="#七、总结" class="headerlink" title="七、总结"></a>七、总结</h1><p>&emsp;&emsp;总之，深度学习是机器学习的一种方法。在过去的发展中，它大量的借鉴了关于大脑、统计学和应用数学的知识。近年来，更加强大的计算机、更庞大的数据集和能够训练更深网络的技术都是的深度学习的普及性和实用性都有了极大的发展。但是随着深度学习的不断发展与应用，也逐渐暴露出一些问题，如网络结构优化、数据稀缺及实现复杂度等问题。相信经过人们的努力，人工智能技术发展必然会在现有的研究成果上更进一步。</p>]]></content>
     
@@ -376,7 +417,7 @@
     <link href="https://chenquan9807.github.io/2020/08/15/butterfly%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80%E8%AE%B0%E5%BD%95/"/>
     <id>https://chenquan9807.github.io/2020/08/15/butterfly%E4%B8%BB%E9%A2%98%E5%9C%B0%E5%9D%80%E8%AE%B0%E5%BD%95/</id>
     <published>2020-08-15T14:47:04.000Z</published>
-    <updated>2020-08-15T15:28:23.623Z</updated>
+    <updated>2020-08-15T23:28:22.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Butterfly主题"><a href="#Butterfly主题" class="headerlink" title="Butterfly主题"></a>Butterfly主题</h1><p>Butterfly主题设置帮助网址</p><h2 id="Butterfly-主题安装"><a href="#Butterfly-主题安装" class="headerlink" title="Butterfly 主题安装"></a>Butterfly 主题安装</h2><h3 id="Butterfly-安装文档主题页面"><a href="#Butterfly-安装文档主题页面" class="headerlink" title="Butterfly 安装文档主题页面"></a>Butterfly 安装文档主题页面</h3><blockquote><p><a href="https://demo.jerryc.me/posts/dc584b87/#Front-matter">主题页面</a></p></blockquote><h3 id="Butterfly-安装文档主题配置-1"><a href="#Butterfly-安装文档主题配置-1" class="headerlink" title="Butterfly 安装文档主题配置-1"></a>Butterfly 安装文档主题配置-1</h3><blockquote><p><a href="https://demo.jerryc.me/posts/4aa8abbe/">主题配置一</a></p></blockquote><h3 id="Butterfly-安装文档主题配置-2"><a href="#Butterfly-安装文档主题配置-2" class="headerlink" title="Butterfly 安装文档主题配置-2"></a>Butterfly 安装文档主题配置-2</h3><blockquote><p><a href="https://demo.jerryc.me/posts/ceeb73f/">主题配置二</a></p></blockquote><h3 id="Butterfly-安装文档主题问答"><a href="#Butterfly-安装文档主题问答" class="headerlink" title="Butterfly 安装文档主题问答"></a>Butterfly 安装文档主题问答</h3><blockquote><p><a href="https://demo.jerryc.me/posts/98d20436/">主题问答</a></p></blockquote><h3 id="Butterfly-安装文档进阶教程"><a href="#Butterfly-安装文档进阶教程" class="headerlink" title="Butterfly 安装文档进阶教程"></a>Butterfly 安装文档进阶教程</h3><blockquote><p><a href="https://demo.jerryc.me/posts/4073eda/">进阶教程</a></p></blockquote>]]></content>
     
@@ -393,26 +434,6 @@
     
     
     <category term="Themes" scheme="https://chenquan9807.github.io/tags/Themes/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://chenquan9807.github.io/2020/08/15/hello-world/"/>
-    <id>https://chenquan9807.github.io/2020/08/15/hello-world/</id>
-    <published>2020-08-15T11:43:05.314Z</published>
-    <updated>2020-08-15T11:43:05.314Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
